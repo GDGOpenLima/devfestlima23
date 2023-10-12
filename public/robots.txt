@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://gdsc-peru-hack.web.app
-
-# Sitemaps
-Sitemap: https://gdsc-peru-hack.web.app/sitemap.xml
