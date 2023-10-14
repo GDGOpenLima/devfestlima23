@@ -264,13 +264,15 @@
                 border-radius: 8px;
                 width: 100%;
                 margin: 0 24px;
-                padding: 52px 48px 40px 48px;
+                padding: 52px 40px 40px 40px;
                 position: relative;
                 box-sizing: border-box;
+                height: 152px;
 
                 @media screen and (max-width: 768px) {
                     margin: 24px 0;
                     max-width: 400px;
+                    height: 145px;
                 }
 
                 .icon {
@@ -290,7 +292,7 @@
             p {
                 font-style: normal;
                 font-weight: 400;
-                font-size: 28px;
+                font-size: 24px;
                 text-align: center;
 
                 @media screen and (max-width: 768px) {
