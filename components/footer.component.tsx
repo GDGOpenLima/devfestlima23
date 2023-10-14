@@ -3,7 +3,8 @@ import IconFacebook from './../assets/icons/ic_facebook.svg';
 import IconInstagram from './../assets/icons/ic_instagram.svg';
 import IconTwitter from './../assets/icons/ic_twitter.svg';
 import IconDiscord from './../assets/icons/ic_discord.svg';
-import IconGDGOpen from './../assets/icons/ic_gdgopen.png';
+import IconDevFestLima from './../assets/icons/ic_devfestlima.svg'
+import IconGDGOpen from './../assets/icons/ic_gdgopen_bn.svg';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -11,6 +12,7 @@ export default function Footer() {
 		<footer className={styles.footer}>
 			<div className={styles.container}>
 				<div className={styles.socialMedia}>
+					<IconDevFestLima className={styles.logoPrimary} />
 					<p className={styles.label}>Síguenos en</p>
 					<Link href='https://web.facebook.com/devfest.lima' target='_blank' aria-label='Link Facebook'>
 						<IconFacebook className={styles.socialMediaItem} />
