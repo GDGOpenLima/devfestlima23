@@ -3,7 +3,7 @@ import IconFacebook from './../assets/icons/ic_facebook.svg';
 import IconInstagram from './../assets/icons/ic_instagram.svg';
 import IconTwitter from './../assets/icons/ic_twitter.svg';
 import IconDiscord from './../assets/icons/ic_discord.svg';
-import IconGdscPeru from './../assets/icons/ic_gdgopen.svg';
+import IconGDGOpen from './../assets/icons/ic_gdgopen.png';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -23,7 +23,7 @@ export default function Footer() {
 					</Link>
 				</div>
 				<div className={styles.boxLink}>
-					<IconGdscPeru className={styles.logoPrimary} />
+					<IconGDGOpen className={styles.logoPrimary} />
 					<Link className={styles.boxLinkItem} href='/privacy' target='_blank'>
 						Privacidad
 					</Link>
@@ -39,7 +39,7 @@ export default function Footer() {
 					<Link className={styles.boxLinkItem} href='mailto:devfestlimaperu@gmail.com' target='_blank'>
 						Contáctanos
 					</Link>
-					<IconGdscPeru className={styles.logoSecondary} />
+					<IconGDGOpen className={styles.logoSecondary} />
 				</div>
 			</div>
 		</footer>
