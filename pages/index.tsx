@@ -29,9 +29,9 @@ export default function Home() {
           <div className={styles.boxTitle}>
             <h2 className={styles.title}>¡Bienvenidos al DevFest Lima 2023!</h2>
             <p className={styles.paragraph}>
-            Conferencia para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.
+              Conferencia para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.
             </p>
-
+            <Link className={styles.btnSubmit} target='_blank' href={'http://bit.ly/registro-dev-fest-lima-23'}>Registrarse</Link>
           </div>
           <div className={styles.boxVideo}>
             <div className={styles.boxVideoItem}>
@@ -103,11 +103,9 @@ export default function Home() {
         <section className={styles.about}>
           <h2 className={styles.title}>¡Prepárate para el DevFest Lima!</h2>
           <p className={styles.paragraph}>
-Los DevFests son conferencias para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.
-
-Los ponentes provienen de entre los Google Developer Experts y ponentes de la comunidad. Un encuentro organizado para desarrolladores con mucho contenido, networking y aprendizaje.
-
-Los DevFests son eventos organizados por los GDGs, grupos que forman parte del programa de comunidades para desarrolladores de Google.
+            Los DevFests son conferencias para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.
+            Los ponentes provienen de entre los Google Developer Experts y ponentes de la comunidad. Un encuentro organizado para desarrolladores con mucho contenido, networking y aprendizaje.
+            Los DevFests son eventos organizados por los GDGs, grupos que forman parte del programa de comunidades para desarrolladores de Google.
           </p>
         </section>
         <Image
@@ -195,9 +193,9 @@ Los DevFests son eventos organizados por los GDGs, grupos que forman parte del p
                 </section>*/}
         <section className={`${styles.aboutSponsors} ${styles.sectionSponsors}`}>
           <h2 className={styles.title}>Sponsors</h2>
-          <p className={styles.paragraph}>
+          {/* <p className={styles.paragraph}>
             Es un honor para nosotros tener el apoyo de nuestros sponsors en el DevFest Lima 2023. Su contribución ha sido fundamental esta iniciativa y queremos expresar nuestro más sincero agradecimiento.
-          </p>
+          </p> */}
           <h3 className={styles.subtitle}>Gold Sponsor</h3>
           {/*<div className={styles.galleryLogo}>
             <div className={styles.sponsorItem}>
@@ -294,7 +292,7 @@ Los DevFests son eventos organizados por los GDGs, grupos que forman parte del p
             </div>
                 </div>*/}
           <p className={styles.paragraph}>
-            El GDSC Perú Hack reunirá al mejor talento de estudiantes de ingeniería de diferentes universidades y, patrocinar este evento es la mejor manera de conectarse con el talento joven. Conoce más <Link className={styles.link} href='mailto:gdsc.peru@gmail.com'>aquí</Link>.
+            El GDSC Perú Hack reunirá al mejor talento y, patrocinar este evento es la mejor manera de conectarse con el talento joven. Conoce más <Link className={styles.link} href='mailto:gdsc.peru@gmail.com'>aquí</Link>.
           </p>
         </section>
         {/* <section className={styles.aboutSponsors}>
