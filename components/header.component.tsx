@@ -43,21 +43,6 @@ export default function Header() {
 							</Link>
 						</li>
 						<li className={styles.listItem}>
-							<Link className={styles.linkItem} aria-label='Reglas' href='/rules'>
-								Términos y Condiciones
-							</Link>
-						</li>
-						<li className={styles.listItem}>
-							<Link className={styles.linkItem} aria-label='Ganadores' href='/winners'>
-								Ganadores
-							</Link>
-						</li>
-						<li className={styles.listItem}>
-							<Link className={styles.linkItem} aria-label='Mentores' href='/mentors'>
-								Mentores
-							</Link>
-						</li>
-						<li className={styles.listItem}>
 							<Link className={styles.linkItem} aria-label='Código de conducta' href='/code-conduct'>
 								Código de conducta
 							</Link>
