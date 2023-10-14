@@ -22,7 +22,7 @@ const nextConfig = {
       '/': { page: '/' },
       '/about': { page: '/about' },
       '/code-conduct': { page: '/code-conduct' },
-      '/faq': { page: '/faq' },
+      // '/faq': { page: '/faq' },
     };
   },
 };
