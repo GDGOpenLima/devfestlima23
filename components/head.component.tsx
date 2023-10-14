@@ -24,7 +24,7 @@ export default function HeadPage(props: any) {
 			<meta charSet='UTF-8' />
 
 			<meta property='og:type' content='website' />
-			<meta property='og:url' content='https://gdsc-peru-hack.web.app/' />
+			<meta property='og:url' content='https://devfest.pe/' />
 			<meta property='og:title' content='DevFest Lima 2023' />
 			<meta
 				property='og:description'
@@ -33,7 +33,7 @@ export default function HeadPage(props: any) {
 			<meta property='og:image' content='https://i.ibb.co/BtD6d5h/meta-portada.png' />
 
 			<meta property='twitter:card' content='summary_large_image' />
-			<meta property='twitter:url' content='https://gdsc-peru-hack.web.app/' />
+			<meta property='twitter:url' content='https://devfest.pe/' />
 			<meta property='twitter:title' content='DevFest Lima 2023' />
 			<meta
 				property='twitter:description'
