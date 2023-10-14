@@ -20,12 +20,15 @@ export default function About() {
             <article>
                 <section className={styles.about}>
                     <div className={styles.boxText}>
-                        <h1 className={styles.title}>¿Qué es el GDSC Perú Hack?</h1>
+                        <h1 className={styles.title}>¿Qué es el DevFest Lima?</h1>
                         <p className={styles.paragraph}>
-                            Como parte de la preparación hacia el Solution Challenge, los GDSC de Perú estamos organizando esta hackathon en donde buscamos participación de estudiantes universitarios.
+                        Los DevFests son conferencias para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs. 
                         </p>
                         <p className={styles.paragraph}>
-                            Con esta hackathon los participantes podrán prepararse para el Solution Challenge, competencia anual de Google que busca resolver uno o más de los 17 Objetivos de Desarrollo Sostenible de las Naciones Unidas.
+                        Los ponentes provienen de entre los Google Developer Experts y ponentes de la comunidad. Un encuentro organizado para desarrolladores con mucho contenido, networking y aprendizaje. 
+                        </p>
+                        <p className={styles.paragraph}>
+                        Los DevFests son eventos organizados por los GDGs, grupos que forman parte del programa de comunidades para desarrolladores de Google.
                         </p>
                     </div>
                     <div className={styles.boxImg}>
@@ -61,7 +64,7 @@ export default function About() {
                     <div className={styles.boxText}>
                         <h2 className={styles.title}>¿Quienes pueden participar?</h2>
                         <p className={styles.paragraph}>
-                            Este evento está orientado para estudiantes universitarios de cualquier ciclo. Para poder participar dentro del GDSC Perú Hack, uno o más de los integrantes de tu equipo deber pertenecer  a uno de los diferentes Google Developer Students Club que existen en el Perú.
+                        Este evento está orientado para profesionales del sector, estudiantes universitarios y técnicos interesados en la tecnología y personas interesadas en la tecnología.
                         </p>
                     </div>
 
@@ -70,12 +73,12 @@ export default function About() {
                     <div className={styles.boxText}>
                         <h2 className={styles.title}>¿Por qué participar?</h2>
                         <p className={styles.paragraph}>
-                            Invitamos a los estudiantes a participar de este hackathon por las siguientes razones:
+                            Invitamos a todos a participar de este evento por las siguientes razones:
                         </p>
                         <ul className={styles.list}>
-                            <li className={styles.listItem}><b>Aprendizaje:</b> Estarás en un ambiente de aprendizaje colaborativo y desafiante en la que podrás desarrollar tus habilidades de programación y resolución de problemas.</li>
-                            <li className={styles.listItem}><b>Networking:</b> Esta hackathon te brindará la oportunidad de conectarse con otros estudiantes interesados en tecnología, así como con profesionales del sector.</li>
-                            <li className={styles.listItem}><b>Diversión:</b> Por último, pero no menos importante, pasarás un momento de forma divertida y  emocionante  donde aprenderás cosas nuevas y desafiantes en equipo.</li>
+                            <li className={styles.listItem}><b>Aprendizaje:</b> Estarás en un ambiente de aprendizaje en el que expositores provenientes de diferentes países y de Perú se juntan para compartir con la comunidad, conocimiento relacionado a los proyectos en los que se encuentran involucrados.</li>
+                            <li className={styles.listItem}><b>Networking:</b> Este evento te brindará la oportunidad de conectarse con otras personas interesadas en tecnología, entre estudiantes y profesionales del sector.</li>
+                            <li className={styles.listItem}><b>Diversión:</b> Por último, pero no menos importante, pasarás un momento de forma divertida y emocionante donde aprenderás cosas nuevas y que te permitirán mejorar profesionalmente.</li>
                         </ul>
                     </div>
                     <div className={styles.boxImg}>
@@ -108,16 +111,6 @@ export default function About() {
                                 width: "100%",
                             }} />
                     </div>
-                    <div className={styles.boxText}>
-                        <h2 className={styles.title}>¿Cómo puedo participar?</h2>
-                        <p className={styles.paragraph}>
-                            Para participar en esta hackathon, recuerda que debes formar un equipo de máximo 4 integrantes y registrarte en el evento; no te olvides que tienes hasta el 23 de febrero. 
-                        </p>
-                        <p className={styles.paragraph}>
-                        Luego, elige uno o más de los 17 Objetivos de Desarrollo Sostenible y comienza a construir tu proyecto. No olvides que debes usar alguna tecnología de Google. 
-                        </p>
-                    </div>
-
                 </section>
             </article>
         </main>
