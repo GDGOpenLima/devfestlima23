@@ -3,7 +3,6 @@ import Image from "next/image";
 import About1 from './../assets/images/about-1.png';
 import About2 from './../assets/images/about-2.png';
 import About3 from './../assets/images/about-3.png';
-import About4 from './../assets/images/about-4.png';
 import Footer from '@/components/footer.component';
 import Header from '@/components/header.component';
 import HeadPage from '@/components/head.component';
@@ -84,22 +83,6 @@ export default function About() {
                     <div className={styles.boxImg}>
                         <Image
                             src={About3}
-                            alt="Equipo tech"
-                            width={350}
-                            height={350}
-                            priority={true}
-                            sizes="100vw"
-                            style={{
-                                maxWidth: '350px',
-                                height: 'auto',
-                                width: "100%",
-                            }} />
-                    </div>
-                </section>
-                <section className={styles.about}>
-                    <div className={styles.boxImg}>
-                        <Image
-                            src={About4}
                             alt="Equipo tech"
                             width={350}
                             height={350}
