@@ -3,23 +3,10 @@ import Footer from '@/components/footer.component';
 import styles from '@/styles/pages/home.module.scss';
 import Image from "next/image";
 import Banner from './../assets/images/home-1.png';
-import ODS from './../assets/images/ods.png';
 import IconTeam from './../assets/icons/ic_team.svg';
 import IconTrophy from './../assets/icons/ic_trophy.svg';
 import IconBadge from './../assets/icons/ic_badge.svg';
-import IconGDSCUtp from './../assets/icons/logo_gdsc_utp.png';
-import IconGDSCUni from './../assets/icons/logo_gdsc_uni.png';
-import IconGDSCUnica from './../assets/icons/logo_gdsc_unica.png';
 import IconGDGOpen from './../assets/icons/logo_gdg_open.png';
-import IconFlutterIca from './../assets/icons/logo_flutter_ica.png';
-import IconFlutterLima from './../assets/icons/logo_flutter_lima.png';
-import IconGDGChimbote from './../assets/icons/logo_gdg_chimbote.png';
-import IconLeonidasEsteban from './../assets/images/sponsors/logo_leonidasEsteban.png';
-import IconMitocode from './../assets/images/sponsors/logo_mitocode.png';
-import IconGoogle from './../assets/images/sponsors/logo_google.png';
-import IconSystematic from './../assets/images/sponsors/logo_systematic.png';
-import IconAmCreative from './../assets/images/sponsors/logo_amcreative.png';
-import IconColegioIngPeru from './../assets/images/partners/logo_colegio-ing-peru.png';
 import Link from 'next/link';
 import HeadPage from '@/components/head.component';
 import Coding from './../assets/images/coding.gif';
@@ -27,10 +14,7 @@ import Holding from './../assets/images/holding.gif';
 import Phone from './../assets/images/phone.gif';
 import Working from './../assets/images/working.gif';
 import { useEffect } from 'react';
-import { dataJudges } from '@/data/dataJudges';
-import IconLinkedIn from './../assets/icons/ic_linkedin.svg';
 
-const basePath = './../assets/judges';
 
 export default function Home() {
 
