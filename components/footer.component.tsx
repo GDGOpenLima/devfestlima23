@@ -3,7 +3,7 @@ import IconFacebook from './../assets/icons/ic_facebook.svg';
 import IconInstagram from './../assets/icons/ic_instagram.svg';
 import IconTwitter from './../assets/icons/ic_twitter.svg';
 import IconDiscord from './../assets/icons/ic_discord.svg';
-import IconGdscPeru from './../assets/icons/ic_gdscPeru.svg';
+import IconGdscPeru from './../assets/icons/ic_gdgopen.svg';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -12,17 +12,14 @@ export default function Footer() {
 			<div className={styles.container}>
 				<div className={styles.socialMedia}>
 					<p className={styles.label}>Síguenos en</p>
-					<Link href='https://www.facebook.com/gdsc.peru' target='_blank' aria-label='Link Facebook'>
+					<Link href='https://web.facebook.com/devfest.lima' target='_blank' aria-label='Link Facebook'>
 						<IconFacebook className={styles.socialMediaItem} />
 					</Link>
-					<Link href='https://www.instagram.com/gdsc.peru/' target='_blank' aria-label='Link Instagram'>
+					<Link href='https://www.instagram.com/devfest.lima/' target='_blank' aria-label='Link Instagram'>
 						<IconInstagram className={styles.socialMediaItem} />
 					</Link>
-					<Link href='https://twitter.com/gdsc_peru' target='_blank' aria-label='Link Twitter'>
+					<Link href='https://twitter.com/devfestlima' target='_blank' aria-label='Link Twitter'>
 						<IconTwitter className={styles.socialMediaItem} />
-					</Link>
-					<Link href='https://discord.gg/qHkbvDs2AB' target='_blank' aria-label='Link Discord'>
-						<IconDiscord className={styles.socialMediaItem} />
 					</Link>
 				</div>
 				<div className={styles.boxLink}>
@@ -33,13 +30,13 @@ export default function Footer() {
 					<Link className={styles.boxLinkItem} href='/rules' target='_blank'>
 						Términos
 					</Link>
-					<Link className={styles.boxLinkItem} href='https://gdsc.community.dev/' target='_blank'>
-						Sobre el Google Developer Student Clubs
+					<Link className={styles.boxLinkItem} href='https://gdg.community.dev/gdg-open/' target='_blank'>
+						Sobre el GDG Open Lima
 					</Link>
 					<Link className={styles.boxLinkItem} href='/code-conduct' target='_blank'>
 						Código de conducta
 					</Link>
-					<Link className={styles.boxLinkItem} href='mailto:gdsc.peru@gmail.com' target='_blank'>
+					<Link className={styles.boxLinkItem} href='mailto:devfestlimaperu@gmail.com' target='_blank'>
 						Contáctanos
 					</Link>
 					<IconGdscPeru className={styles.logoSecondary} />

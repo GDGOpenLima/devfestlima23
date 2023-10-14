@@ -43,9 +43,9 @@ export default function Home() {
       <article className={styles.containerArticle}>
         <section className={styles.home}>
           <div className={styles.boxTitle}>
-            <h2 className={styles.title}>¡Gracias por participar en el GDSC Perú Hack 2023!</h2>
+            <h2 className={styles.title}>¡Bienvenidos al DevFest Lima 2023!</h2>
             <p className={styles.paragraph}>
-              Un desafío orientado a estudiantes a diseñar soluciones a problemas reales y tomar medidas para construir un mundo mejor usando la tecnología.
+            Conferencia para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.
             </p>
 
           </div>
@@ -114,16 +114,16 @@ export default function Home() {
           </div>
         </section>
         <div className={styles.homeLine}>
-          <h1>GDSC Perú Hack</h1>
+          <h1>DevFest Lima 2023</h1>
         </div>
         <section className={styles.about}>
-          <h2 className={styles.title}>¿De que trata?</h2>
+          <h2 className={styles.title}>¡Prepárate para el DevFest Lima!</h2>
           <p className={styles.paragraph}>
-            El GDSC Perú Hack 2023, es una hackathon organizada por los Google Developer Students Club del Perú y esta orientado para estudiantes universitarios. Esta iniciativa busca fomentar el pensamiento crítico y la creatividad en estudiantes, al mismo tiempo que les brinda la oportunidad de desarrollar habilidades en tecnología y programación.
-          </p>
-          <h2 className={styles.title}>¿Cuál es el reto?</h2>
-          <p className={styles.paragraph}>
-            El reto de la hackathon es crear una solución a un problema local utilizando las tecnologías de Google, de acuerdo con uno o más de los <Link className={styles.boxLinkItem} href='https://developers.google.com/community/gdsc-solution-challenge/UN-goals?hl=es-419'>17 Objetivos de Desarrollo Sostenible de las Naciones Unidas</Link> y así, poder prepararnos para el <Link className={styles.boxLinkItem} href='https://developers.google.com/community/gdsc-solution-challenge?hl=es-419'>Solution Challenge</Link>, que es una competencia anual de Google.
+Los DevFests son conferencias para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.
+
+Los ponentes provienen de entre los Google Developer Experts y ponentes de la comunidad. Un encuentro organizado para desarrolladores con mucho contenido, networking y aprendizaje.
+
+Los DevFests son eventos organizados por los GDGs, grupos que forman parte del programa de comunidades para desarrolladores de Google.
           </p>
         </section>
         <Image
@@ -143,23 +143,23 @@ export default function Home() {
             <div className={styles.icon}>
               <IconTeam />
             </div>
-            <p>Los dieciséis mejores equipos</p>
+            <p>Conecta con otros desarrolladores</p>
           </div>
           <div className={styles.phaseItem}>
             <div className={styles.icon}>
               <IconBadge />
             </div>
-            <p>Los ocho finalistas</p>
+            <p>Comparte conocimiento</p>
           </div>
           <div className={styles.phaseItem}>
             <div className={styles.icon}>
               <IconTrophy />
             </div>
-            <p>Tres ganadores</p>
+            <p>Invierte en tu crecimiento profesional</p>
           </div>
         </section>
         <div className={styles.homeLineGray}></div>
-        <section className={styles.aboutODS}>
+        {/*<section className={styles.aboutODS}>
           <div className={styles.containerImg}>
             <Image
               src={ODS}
@@ -181,8 +181,8 @@ export default function Home() {
               Creado por las Naciones Unidas en 2015, con el apoyo de los 193 estados miembros de las Naciones Unidas, los 17 Objetivos de Desarrollo Sostenible buscan acabar con la pobreza, garantizar la prosperidad y proteger el planeta.
             </p>
           </div>
-        </section>
-        <section className={styles.aboutSponsors}>
+            </section>*/}
+        {/*<section className={styles.aboutSponsors}>
           <h2 className={styles.title}>Jurados</h2>
           <div className={styles.mentorsGroup}>
             {dataJudges && dataJudges.map(mentors =>
@@ -208,14 +208,14 @@ export default function Home() {
               </div>
             )}
           </div>
-        </section>
+                </section>*/}
         <section className={`${styles.aboutSponsors} ${styles.sectionSponsors}`}>
           <h2 className={styles.title}>Sponsors</h2>
           <p className={styles.paragraph}>
-            Es un honor para nosotros tener el apoyo de nuestros sponsors en el GDSC Perú Hack 2023. Su contribución ha sido fundamental esta iniciativa y queremos expresar nuestro más sincero agradecimiento.
+            Es un honor para nosotros tener el apoyo de nuestros sponsors en el DevFest Lima 2023. Su contribución ha sido fundamental esta iniciativa y queremos expresar nuestro más sincero agradecimiento.
           </p>
           <h3 className={styles.subtitle}>Gold Sponsor</h3>
-          <div className={styles.galleryLogo}>
+          {/*<div className={styles.galleryLogo}>
             <div className={styles.sponsorItem}>
               <Link className={styles.btnLink} href='https://bit.ly/gdsc-peru-leonidasesteban' target='_blank' aria-label='Leonidas Esteban'>
                 <Image
@@ -288,9 +288,9 @@ export default function Home() {
               </Link>
               <Link className={styles.link} href='/sponsors/systematic'>Ver Perfil</Link>
             </div>
-          </div>
+          </div>*/}
           <h3 className={styles.subtitle}>Bronze Sponsor</h3>
-          <div className={styles.galleryLogo}>
+          {/*<div className={styles.galleryLogo}>
             <div className={styles.sponsorItem}>
               <Link className={styles.btnLink} href='https://bit.ly/gdsc-peru-amcreative' target='_blank' aria-label='AM Creative'>
                 <Image
@@ -308,12 +308,12 @@ export default function Home() {
                   }} />
               </Link>
             </div>
-          </div>
+                </div>*/}
           <p className={styles.paragraph}>
             El GDSC Perú Hack reunirá al mejor talento de estudiantes de ingeniería de diferentes universidades y, patrocinar este evento es la mejor manera de conectarse con el talento joven. Conoce más <Link className={styles.link} href='mailto:gdsc.peru@gmail.com'>aquí</Link>.
           </p>
         </section>
-        <section className={styles.aboutSponsors}>
+        {/* <section className={styles.aboutSponsors}>
           <h2 className={styles.title}>Partners</h2>
           <div className={styles.galleryLogo}>
             <Link className={styles.btnLink} href='https://www.cip.org.pe/' aria-label='Colegio de Ingenieros del Perú'>
@@ -330,7 +330,7 @@ export default function Home() {
                   width: "150px",
                 }} />
             </Link>
-            {/* <Link className={styles.btnLink} href='https://gdg.community.dev/gdg-chimbote/' aria-label='Google Developer Group Chimbote'>
+            <Link className={styles.btnLink} href='https://gdg.community.dev/gdg-chimbote/' aria-label='Google Developer Group Chimbote'>
               <Image
                 src={IconGDGChimbote}
                 alt="Equipo tech"
@@ -343,47 +343,19 @@ export default function Home() {
                   height: 'auto',
                   width: "375px",
                 }} />
-            </Link> */}
-            {/* <Link className={styles.btnLink} href='https://gdsc.community.dev/san-luis-gonzaga/' aria-label='Google Developer Student Clubs San Luis Gonzaga'>
+            </Link> 
+            <Link className={styles.btnLink} href='https://gdsc.community.dev/san-luis-gonzaga/' aria-label='Google Developer Student Clubs San Luis Gonzaga'>
               <IconGDSCUnica viewBox='0 0 350 150' />
-            </Link> */}
+            </Link> 
           </div>
-        </section>
+        </section>*/}
         <section className={styles.aboutSponsors}>
           <h2 className={styles.title}>Organizadores</h2>
           <div className={styles.galleryLogo}>
-            <Link className={styles.btnLink} href='https://gdsc.community.dev/universidad-nacional-de-ingenieria/' aria-label='Google Developer Student Clubs Universidad Nacional de Ingeniería'>
+            <Link className={styles.btnLink} href='https://gdg.community.dev/gdg-open/' aria-label='Google Developer Group Open de Lima'>
               <Image
-                src={IconGDSCUni}
-                alt="Equipo tech"
-                width={350}
-                height={350}
-                priority={true}
-                sizes="100vw"
-                style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  width: "375px",
-                }} />
-            </Link>
-            <Link className={styles.btnLink} href='https://gdsc.community.dev/universidad-tecnologica-del-peru/' aria-label='Google Developer Student Clubs UTP'>
-              <Image
-                src={IconGDSCUtp}
-                alt="Equipo tech"
-                width={350}
-                height={350}
-                priority={true}
-                sizes="100vw"
-                style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  width: "375px",
-                }} />
-            </Link>
-            <Link className={styles.btnLink} href='https://gdsc.community.dev/san-luis-gonzaga/' aria-label='Google Developer Student Clubs San Luis Gonzaga'>
-              <Image
-                src={IconGDSCUnica}
-                alt="Equipo tech"
+                src={IconGDGOpen}
+                alt="GDG Open"
                 width={350}
                 height={350}
                 priority={true}
@@ -399,9 +371,9 @@ export default function Home() {
         <section className={styles.aboutSponsors}>
           <h2 className={styles.title}>Comunidades aliadas</h2>
           <p className={styles.paragraph}>
-            Te gustaría apoyar este evento, ponte en contacto con nosotros y sé una comunidad aliada haciendo clic <Link className={styles.link} href='mailto:gdsc.peru@gmail.com'>aquí</Link>.
+            Te gustaría apoyar este evento, ponte en contacto con nosotros y sé una comunidad aliada haciendo clic <Link className={styles.link} href='mailto:devfestlimaperu@gmail.com'>aquí</Link>.
           </p>
-          <div className={styles.galleryLogo}>
+          {/*<div className={styles.galleryLogo}>
             <Link className={styles.btnLink} href='https://gdg.community.dev/gdg-open/' aria-label='Google Developer Group Open'>
               <Image
                 src={IconGDGOpen}
@@ -458,7 +430,7 @@ export default function Home() {
                   width: "375px",
                 }} />
             </Link>
-          </div>
+              </div> */}
         </section>
       </article>
     </main>
