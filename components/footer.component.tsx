@@ -26,9 +26,6 @@ export default function Footer() {
 				</div>
 				<div className={styles.boxLink}>
 					<IconGDGOpen className={styles.logoPrimary} />
-					<Link className={styles.boxLinkItem} href='/privacy' target='_blank'>
-						Privacidad
-					</Link>
 					<Link className={styles.boxLinkItem} href='https://gdg.community.dev/gdg-open/' target='_blank'>
 						Sobre el GDG Open Lima
 					</Link>

@@ -30,7 +30,7 @@ export default function HeadPage(props: any) {
 				property='og:description'
 				content='El DevFest Lima 2023, es una conferencia para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.'
 			/>
-			<meta property='og:image' content='https://i.ibb.co/BtD6d5h/meta-portada.png' />
+			<meta property='og:image' content='https://devfestlima.pe/bannerTag.jpg' />
 
 			<meta property='twitter:card' content='summary_large_image' />
 			<meta property='twitter:url' content='https://devfest.pe/' />
@@ -39,7 +39,7 @@ export default function HeadPage(props: any) {
 				property='twitter:description'
 				content='El DevFest Lima 2023, es una conferencia para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.'
 			/>
-			<meta property='twitter:image' content='https://i.ibb.co/BtD6d5h/meta-portada.png' />
+			<meta property='twitter:image' content='https://devfestlima.pe/bannerTag.jpg' />
 		</Head>
 	);
 }

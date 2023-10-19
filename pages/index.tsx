@@ -292,7 +292,7 @@ export default function Home() {
             </div>
                 </div>*/}
           <p className={styles.paragraph}>
-            El GDSC Perú Hack reunirá al mejor talento y, patrocinar este evento es la mejor manera de conectarse con el talento joven. Conoce más <Link className={styles.link} href='mailto:gdsc.peru@gmail.com'>aquí</Link>.
+            El DevFestLima 2023 reunirá al mejor talento y, patrocinar este evento es la mejor manera de conectarse con el talento joven. Conoce más <Link className={styles.link} href='mailto:gdsc.peru@gmail.com'>aquí</Link>.
           </p>
         </section>
         {/* <section className={styles.aboutSponsors}>

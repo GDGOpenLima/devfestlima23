@@ -11,7 +11,7 @@ export default function Header() {
 	const [isOpenMenu, setIsOpenMenu] = React.useState(false);
 
 	function handleMenu() {
-		setIsOpenMenu(!isOpenMenu);		
+		setIsOpenMenu(!isOpenMenu);
 		!isOpenMenu ? document.body.classList.add('noScroll') : document.body.classList.remove('noScroll');
 	}
 
@@ -37,19 +37,14 @@ export default function Header() {
 								Acerca de
 							</Link>
 						</li>
-						<li className={styles.listItem}>
+						{/* <li className={styles.listItem}>
 							<Link className={styles.linkItem} aria-label='Cronograma' href='/schedule'>
 								Cronograma
 							</Link>
-						</li>
+						</li> */}
 						<li className={styles.listItem}>
 							<Link className={styles.linkItem} aria-label='Código de conducta' href='/code-conduct'>
 								Código de conducta
-							</Link>
-						</li>
-						<li className={styles.listItem}>
-							<Link className={styles.linkItem} aria-label='Preguntas frecuentes' href='/faq'>
-								FAQs
 							</Link>
 						</li>
 					</ul>
