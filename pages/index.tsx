@@ -17,7 +17,6 @@ import { useEffect } from 'react';
 import { dataSponsorsBronze, dataSponsorsGold } from '@/data/dataSponsors';
 import { dataCommunity } from '@/data/dataCommunity';
 
-
 export default function Home() {
 
   useEffect(() => { document.body.classList.remove('noScroll'); });
@@ -144,12 +143,12 @@ export default function Home() {
         </section>
         <div className={styles.homeLineGray}></div>
 
-        <section className={`${styles.aboutSponsors} ${styles.sectionSponsors}`}>
-          <h2 className={styles.title}>Sponsors</h2>
-          {/* <p className={styles.paragraph}>
+        {/* <section className={`${styles.aboutSponsors} ${styles.sectionSponsors}`}> */}
+        {/* <h2 className={styles.title}>Sponsors</h2> */}
+        {/* <p className={styles.paragraph}>
             Es un honor para nosotros tener el apoyo de nuestros sponsors en el DevFest Lima 2023. Su contribución ha sido fundamental esta iniciativa y queremos expresar nuestro más sincero agradecimiento.
           </p> */}
-          <h3 className={styles.subtitle}>Gold Sponsor</h3>
+        {/* <h3 className={styles.subtitle}>Gold Sponsor</h3>
           <div className={styles.galleryLogo}>
             {
               dataSponsorsGold && dataSponsorsGold.map(sponsor =>
@@ -200,11 +199,11 @@ export default function Home() {
                 </div>
               )
             }
-          </div>
-          <p className={styles.paragraph}>
+          </div> */}
+        {/* <p className={styles.paragraph}>
             El DevFestLima 2023 reunirá al mejor talento y, patrocinar este evento es la mejor manera de conectarse con el talento joven. Conoce más <Link className={styles.link} href='mailto:gdsc.peru@gmail.com'>aquí</Link>.
-          </p>
-        </section>
+          </p> */}
+        {/* </section> */}
         <section className={styles.aboutSponsors}>
           <h2 className={styles.title}>Organizadores</h2>
           <div className={styles.galleryLogo}>
@@ -232,7 +231,7 @@ export default function Home() {
           <div className={styles.galleryLogo}>
             {
               dataCommunity && dataCommunity.map(community =>
-                <>
+                <div key={community.name}>
                   <Link className={styles.btnLink} href={community.url} aria-label={community.name}>
                     <Image
                       src={community.imageURL}
@@ -247,7 +246,7 @@ export default function Home() {
                         width: "375px",
                       }} />
                   </Link>
-                </>
+                </div>
               )
             }
           </div>
