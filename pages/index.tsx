@@ -14,6 +14,8 @@ import Holding from './../assets/images/holding.gif';
 import Phone from './../assets/images/phone.gif';
 import Working from './../assets/images/working.gif';
 import { useEffect } from 'react';
+import { dataSponsorsBronze, dataSponsorsGold } from '@/data/dataSponsors';
+import { dataCommunity } from '@/data/dataCommunity';
 
 
 export default function Home() {
@@ -141,196 +143,68 @@ export default function Home() {
           </div>
         </section>
         <div className={styles.homeLineGray}></div>
-        {/*<section className={styles.aboutODS}>
-          <div className={styles.containerImg}>
-            <Image
-              src={ODS}
-              alt="Equipo tech"
-              width={1200}
-              height={350}
-              priority={true}
-              sizes="100vw"
-              style={{
-                maxWidth: '100%',
-                height: 'auto',
-                width: "100%",
-              }} />
-          </div>
-          <div className={styles.containerText}>
-            <h2 className={styles.title}>
-              ¿Cuáles son los 17 objetivos de desarrollo sostenible de las Naciones Unidas?</h2>
-            <p className={styles.paragraph}>
-              Creado por las Naciones Unidas en 2015, con el apoyo de los 193 estados miembros de las Naciones Unidas, los 17 Objetivos de Desarrollo Sostenible buscan acabar con la pobreza, garantizar la prosperidad y proteger el planeta.
-            </p>
-          </div>
-            </section>*/}
-        {/*<section className={styles.aboutSponsors}>
-          <h2 className={styles.title}>Jurados</h2>
-          <div className={styles.mentorsGroup}>
-            {dataJudges && dataJudges.map(mentors =>
-              <div className={styles.mentorItem} key={mentors.name}>
-                <Image
-                  className={styles.img}
-                  src={`${basePath}/${mentors.name}.png`}
-                  alt={mentors.name}
-                  width={150}
-                  height={150}
-                  priority={true}
-                  sizes="100vw"
-                  style={{
-                    maxWidth: '100%',
-                    height: 'auto',
-                    width: "150px",
-                  }} />
-                <Link href={`${mentors.url}`} target='_blank'>
-                  <IconLinkedIn className={styles.btnLinkedIn} />
-                </Link>
-                <p className={styles.name}>{mentors.name}</p>
-                <p className={styles.description}>{mentors.description}</p>
-              </div>
-            )}
-          </div>
-                </section>*/}
+
         <section className={`${styles.aboutSponsors} ${styles.sectionSponsors}`}>
           <h2 className={styles.title}>Sponsors</h2>
           {/* <p className={styles.paragraph}>
             Es un honor para nosotros tener el apoyo de nuestros sponsors en el DevFest Lima 2023. Su contribución ha sido fundamental esta iniciativa y queremos expresar nuestro más sincero agradecimiento.
           </p> */}
           <h3 className={styles.subtitle}>Gold Sponsor</h3>
-          {/*<div className={styles.galleryLogo}>
-            <div className={styles.sponsorItem}>
-              <Link className={styles.btnLink} href='https://bit.ly/gdsc-peru-leonidasesteban' target='_blank' aria-label='Leonidas Esteban'>
-                <Image
-                  src={IconLeonidasEsteban}
-                  alt="Leonidas Esteban"
-                  width={350}
-                  height={350}
-                  priority={true}
-                  sizes="100vw"
-                  style={{
-                    maxWidth: '300px',
-                    maxHeight: '300px',
-                    height: '120px',
-                    width: "auto",
-                  }} />
-              </Link>
-              <Link className={styles.link} href='/sponsors/leonidas-esteban'>Ver Perfil</Link>
-            </div>
-            <div className={styles.sponsorItem}>
-              <Link className={styles.btnLink} href='https://bit.ly/gdsc-peru-google' target='_blank' aria-label='Google'>
-                <Image
-                  src={IconGoogle}
-                  alt="Google"
-                  width={350}
-                  height={350}
-                  priority={true}
-                  sizes="100vw"
-                  style={{
-                    maxWidth: '300px',
-                    maxHeight: '300px',
-                    height: '120px',
-                    width: "auto",
-                  }} />
-              </Link>
-              <Link className={styles.link} href='/sponsors/google'>Ver Perfil</Link>
-            </div>
-            <div className={styles.sponsorItem}>
-              <Link className={styles.btnLink} href='https://bit.ly/gdsc-peru-mitocode' target='_blank' aria-label='MitoCode'>
-                <Image
-                  src={IconMitocode}
-                  alt="MitoCode"
-                  width={350}
-                  height={350}
-                  priority={true}
-                  sizes="100vw"
-                  style={{
-                    maxWidth: '300px',
-                    maxHeight: '300px',
-                    height: '120px',
-                    width: "auto",
-                  }} />
-              </Link>
-              <Link className={styles.link} href='/sponsors/mitocode'>Ver Perfil</Link>
-            </div>
-            <div className={styles.sponsorItem}>
-              <Link className={styles.btnLink} href='https://bit.ly/gdsc-peru-systematic' target='_blank' aria-label='Systematic'>
-                <Image
-                  src={IconSystematic}
-                  alt="Systematic"
-                  width={350}
-                  height={350}
-                  priority={true}
-                  sizes="100vw"
-                  style={{
-                    maxWidth: '300px',
-                    maxHeight: '300px',
-                    height: '120px',
-                    width: "auto",
-                  }} />
-              </Link>
-              <Link className={styles.link} href='/sponsors/systematic'>Ver Perfil</Link>
-            </div>
-          </div>*/}
+          <div className={styles.galleryLogo}>
+            {
+              dataSponsorsGold && dataSponsorsGold.map(sponsor =>
+                <div className={styles.mentorItem} key={sponsor.name}>
+                  <div className={styles.sponsorItem}>
+                    <Link className={styles.btnLink} href={sponsor.url} target='_blank' aria-label={sponsor.name}>
+                      <Image
+                        src={sponsor.imageURL}
+                        alt={sponsor.name}
+                        width={350}
+                        height={350}
+                        priority={true}
+                        sizes="100vw"
+                        style={{
+                          maxWidth: '300px',
+                          maxHeight: '300px',
+                          height: '120px',
+                          width: "auto",
+                        }} />
+                    </Link>
+                  </div>
+                </div>
+              )
+            }
+          </div>
           <h3 className={styles.subtitle}>Bronze Sponsor</h3>
-          {/*<div className={styles.galleryLogo}>
-            <div className={styles.sponsorItem}>
-              <Link className={styles.btnLink} href='https://bit.ly/gdsc-peru-amcreative' target='_blank' aria-label='AM Creative'>
-                <Image
-                  src={IconAmCreative}
-                  alt="AM Creative"
-                  width={350}
-                  height={350}
-                  priority={true}
-                  sizes="100vw"
-                  style={{
-                    maxWidth: '300px',
-                    maxHeight: '300px',
-                    height: '120px',
-                    width: "auto",
-                  }} />
-              </Link>
-            </div>
-                </div>*/}
+          <div className={styles.galleryLogo}>
+            {
+              dataSponsorsBronze && dataSponsorsBronze.map(sponsor =>
+                <div className={styles.mentorItem} key={sponsor.name}>
+                  <div className={styles.sponsorItem}>
+                    <Link className={styles.btnLink} href={sponsor.url} target='_blank' aria-label={sponsor.name}>
+                      <Image
+                        src={sponsor.imageURL}
+                        alt={sponsor.name}
+                        width={350}
+                        height={350}
+                        priority={true}
+                        sizes="100vw"
+                        style={{
+                          maxWidth: '300px',
+                          maxHeight: '300px',
+                          height: '120px',
+                          width: "auto",
+                        }} />
+                    </Link>
+                  </div>
+                </div>
+              )
+            }
+          </div>
           <p className={styles.paragraph}>
             El DevFestLima 2023 reunirá al mejor talento y, patrocinar este evento es la mejor manera de conectarse con el talento joven. Conoce más <Link className={styles.link} href='mailto:gdsc.peru@gmail.com'>aquí</Link>.
           </p>
         </section>
-        {/* <section className={styles.aboutSponsors}>
-          <h2 className={styles.title}>Partners</h2>
-          <div className={styles.galleryLogo}>
-            <Link className={styles.btnLink} href='https://www.cip.org.pe/' aria-label='Colegio de Ingenieros del Perú'>
-              <Image
-                src={IconColegioIngPeru}
-                alt="Colegio de Ingenieros del Perú"
-                width={150}
-                height={150}
-                priority={true}
-                sizes="100vw"
-                style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  width: "150px",
-                }} />
-            </Link>
-            <Link className={styles.btnLink} href='https://gdg.community.dev/gdg-chimbote/' aria-label='Google Developer Group Chimbote'>
-              <Image
-                src={IconGDGChimbote}
-                alt="Equipo tech"
-                width={350}
-                height={350}
-                priority={true}
-                sizes="100vw"
-                style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  width: "375px",
-                }} />
-            </Link> 
-            <Link className={styles.btnLink} href='https://gdsc.community.dev/san-luis-gonzaga/' aria-label='Google Developer Student Clubs San Luis Gonzaga'>
-              <IconGDSCUnica viewBox='0 0 350 150' />
-            </Link> 
-          </div>
-        </section>*/}
         <section className={styles.aboutSponsors}>
           <h2 className={styles.title}>Organizadores</h2>
           <div className={styles.galleryLogo}>
@@ -355,64 +229,28 @@ export default function Home() {
           <p className={styles.paragraph}>
             Te gustaría apoyar este evento, ponte en contacto con nosotros y sé una comunidad aliada haciendo clic <Link className={styles.link} href='mailto:devfestlimaperu@gmail.com'>aquí</Link>.
           </p>
-          {/*<div className={styles.galleryLogo}>
-            <Link className={styles.btnLink} href='https://gdg.community.dev/gdg-open/' aria-label='Google Developer Group Open'>
-              <Image
-                src={IconGDGOpen}
-                alt="Google Developer Group Open"
-                width={350}
-                height={350}
-                priority={true}
-                sizes="100vw"
-                style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  width: "375px",
-                }} />
-            </Link>
-            <Link className={styles.btnLink} href='https://gdg.community.dev/gdg-chimbote/' aria-label='Google Developer Group Chimbote'>
-              <Image
-                src={IconGDGChimbote}
-                alt="Google Developer Group Chimbote"
-                width={350}
-                height={350}
-                priority={true}
-                sizes="100vw"
-                style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  width: "375px",
-                }} />
-            </Link>
-            <Link className={styles.btnLink} href='https://www.meetup.com/es/flutter_ica/' aria-label='Flutter Ica'>
-              <Image
-                src={IconFlutterIca}
-                alt="Flutter Ica"
-                width={350}
-                height={350}
-                priority={true}
-                sizes="100vw"
-                style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  width: "375px",
-                }} />
-            </Link>
-            <Link className={styles.btnLink} href='https://www.meetup.com/flutter-lima/' aria-label='Flutter Lima'>
-              <Image
-                src={IconFlutterLima}
-                alt="Flutter Lima"
-                width={350}
-                height={350}
-                priority={true}
-                sizes="100vw"
-                style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  width: "375px",
-                }} />
-            </Link>
-              </div> */}
+          <div className={styles.galleryLogo}>
+            {
+              dataCommunity && dataCommunity.map(community =>
+                <>
+                  <Link className={styles.btnLink} href={community.url} aria-label={community.name}>
+                    <Image
+                      src={community.imageURL}
+                      alt={community.name}
+                      width={350}
+                      height={350}
+                      priority={true}
+                      sizes="100vw"
+                      style={{
+                        maxWidth: '100%',
+                        height: 'auto',
+                        width: "375px",
+                      }} />
+                  </Link>
+                </>
+              )
+            }
+          </div>
         </section>
       </article>
     </main>
