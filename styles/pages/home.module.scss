@@ -68,8 +68,17 @@
                 .paragraph {
                     font-size: 20px;
                     margin-top: 12px;
+                    align-items: center;
+                    display: flex;
 
-                    &:last-child {}
+                    .iconCalendar {
+                        margin-right: 20px;
+                    }
+
+                    &Icon {
+                        margin: 32px 0;
+                        color: #676C72;
+                    }
 
                     @media screen and (max-width: 768px) {
                         text-align: justify;
@@ -306,6 +315,79 @@
             width: 100%;
         }
 
+        .map {
+            width: 100%;
+            text-align: center;
+            padding: 60px 0;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #202124;
+            box-sizing: border-box;
+
+            @media screen and (max-width: 768px) {
+                padding: 40px 20px;
+            }
+
+            .title {
+                font-size: 36px;
+
+                @media screen and (max-width: 768px) {
+                    font-size: 24px;
+                }
+            }
+
+            .containerMap {
+                margin-top: 60px;
+
+                iframe {
+                    width: 900px;
+                    height: 600px;
+
+                    @media screen and (max-width: 768px) {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .containerPlace {
+                margin-top: 60px;
+                display: flex;
+                width: 1200px;
+                justify-content: center;
+
+                @media screen and (max-width: 768px) {
+                    flex-direction: column;
+                    width: 100%;
+                }
+
+                &Item {
+                    .place {
+                        font-size: 24px;
+                        margin-bottom: 12px;
+                    }
+
+                    .subtitle {
+                        font-size: 18px;
+                        margin-bottom: 12px;
+                    }
+
+                    .button {
+                        margin: 20px 0 40px;
+                        display: inline-flex;
+                        text-decoration: none;
+                        background-color: white;
+                        border: 0;
+                        border-radius: 4px;
+                        color: #202124;
+                        padding: 8px 32px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
         .aboutODS {
             width: 100%;
             max-width: var(--max-width-content);
@@ -500,12 +582,36 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    position: relative;
+
+                    .tooltip {
+                        visibility: hidden;
+                        width: 120px;
+                        background-color: black;
+                        color: #fff;
+                        text-align: center;
+                        border-radius: 6px;
+                        padding: 5px 0;
+                        top: 30px;
+                        position: absolute;
+                        z-index: 1;
+                    }
+
+                    &:hover {
+                        .tooltip {
+                            visibility: visible;
+                        }
+                    }
 
                     @media screen and (max-width: 768px) {
                         margin: 28px auto;
                         width: 100%;
                         display: flex;
                         justify-content: center;
+
+                        img {
+                            width: 200px !important;
+                        }
                     }
                 }
             }

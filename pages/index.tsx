@@ -2,6 +2,7 @@ import Header from '@/components/header.component';
 import Footer from '@/components/footer.component';
 import styles from '@/styles/pages/home.module.scss';
 import Image from "next/image";
+import IconCalendar from './../assets/icons/ic_calendar.svg';
 import Banner from './../assets/images/home-1.png';
 import IconTeam from './../assets/icons/ic_team.svg';
 import IconTrophy from './../assets/icons/ic_trophy.svg';
@@ -14,7 +15,6 @@ import Holding from './../assets/images/holding.gif';
 import Phone from './../assets/images/phone.gif';
 import Working from './../assets/images/working.gif';
 import { useEffect } from 'react';
-import { dataSponsorsBronze, dataSponsorsGold } from '@/data/dataSponsors';
 import { dataCommunity } from '@/data/dataCommunity';
 
 export default function Home() {
@@ -30,9 +30,10 @@ export default function Home() {
           <div className={styles.boxTitle}>
             <h2 className={styles.title}>¡Bienvenidos al DevFest Lima 2023!</h2>
             <p className={styles.paragraph}>
-              Conferencia para desarrolladores sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.
+              Conferencia orientada a la comunidad donde se tocarán temas sobre tecnologías de Google (AI, Cloud, Mobile y Web) organizado por las comunidades GDGs.
             </p>
-            <Link className={styles.btnSubmit} target='_blank' href={'http://bit.ly/registro-dev-fest-lima-23'}>Registrarse</Link>
+            <p className={`${styles.paragraph} ${styles.paragraphIcon}`}><IconCalendar className={styles.iconCalendar} /> 11 de Noviembre de 2023</p>
+            <Link className={styles.btnSubmit} target='_blank' href={'http://bit.ly/registro-dev-fest-lima-23'}>Regístrate gratis</Link>
           </div>
           <div className={styles.boxVideo}>
             <div className={styles.boxVideoItem}>
@@ -141,71 +142,23 @@ export default function Home() {
             <p>Invierte en tu crecimiento profesional</p>
           </div>
         </section>
-        <div className={styles.homeLineGray}></div>
-
-        {/* <section className={`${styles.aboutSponsors} ${styles.sectionSponsors}`}> */}
-        {/* <h2 className={styles.title}>Sponsors</h2> */}
-        {/* <p className={styles.paragraph}>
-            Es un honor para nosotros tener el apoyo de nuestros sponsors en el DevFest Lima 2023. Su contribución ha sido fundamental esta iniciativa y queremos expresar nuestro más sincero agradecimiento.
-          </p> */}
-        {/* <h3 className={styles.subtitle}>Gold Sponsor</h3>
-          <div className={styles.galleryLogo}>
-            {
-              dataSponsorsGold && dataSponsorsGold.map(sponsor =>
-                <div className={styles.mentorItem} key={sponsor.name}>
-                  <div className={styles.sponsorItem}>
-                    <Link className={styles.btnLink} href={sponsor.url} target='_blank' aria-label={sponsor.name}>
-                      <Image
-                        src={sponsor.imageURL}
-                        alt={sponsor.name}
-                        width={350}
-                        height={350}
-                        priority={true}
-                        sizes="100vw"
-                        style={{
-                          maxWidth: '300px',
-                          maxHeight: '300px',
-                          height: '120px',
-                          width: "auto",
-                        }} />
-                    </Link>
-                  </div>
-                </div>
-              )
-            }
+        <section id='containerMap' className={styles.map}>
+          <h2 className={styles.title}>Lugar del DevFest Lima 2023</h2>
+          <div className={styles.containerMap}>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1h988-ild5RGlS8C3Aywsm9CnJcF7yCs&ehbc=2E312F" title='map'></iframe>
           </div>
-          <h3 className={styles.subtitle}>Bronze Sponsor</h3>
-          <div className={styles.galleryLogo}>
-            {
-              dataSponsorsBronze && dataSponsorsBronze.map(sponsor =>
-                <div className={styles.mentorItem} key={sponsor.name}>
-                  <div className={styles.sponsorItem}>
-                    <Link className={styles.btnLink} href={sponsor.url} target='_blank' aria-label={sponsor.name}>
-                      <Image
-                        src={sponsor.imageURL}
-                        alt={sponsor.name}
-                        width={350}
-                        height={350}
-                        priority={true}
-                        sizes="100vw"
-                        style={{
-                          maxWidth: '300px',
-                          maxHeight: '300px',
-                          height: '120px',
-                          width: "auto",
-                        }} />
-                    </Link>
-                  </div>
-                </div>
-              )
-            }
-          </div> */}
-        {/* <p className={styles.paragraph}>
-            El DevFestLima 2023 reunirá al mejor talento y, patrocinar este evento es la mejor manera de conectarse con el talento joven. Conoce más <Link className={styles.link} href='mailto:gdsc.peru@gmail.com'>aquí</Link>.
-          </p> */}
-        {/* </section> */}
+          <div className={styles.containerPlace}>
+            <div className={styles.containerPlaceItem}>
+              <h3 className={styles.place}>Lima</h3>
+              <p className={styles.subtitle}>15 de Julio, 09:00am (GMT-5)</p>
+              <p className={styles.direction}>Universidad Nacional de Ingeniería</p>
+              <p className={styles.direction}>Av. Túpac Amaru 210</p>
+              <p className={styles.direction}>Rímac 15333</p>
+            </div>
+          </div>
+        </section>
         <section className={styles.aboutSponsors}>
-          <h2 className={styles.title}>Organizadores</h2>
+          <h2 className={styles.title}>Organizador</h2>
           <div className={styles.galleryLogo}>
             <Link className={styles.btnLink} href='https://gdg.community.dev/gdg-open/' aria-label='Google Developer Group Open de Lima'>
               <Image
@@ -245,6 +198,7 @@ export default function Home() {
                         height: 'auto',
                         width: "375px",
                       }} />
+                    <span className={styles.tooltip}>Más info</span>
                   </Link>
                 </div>
               )

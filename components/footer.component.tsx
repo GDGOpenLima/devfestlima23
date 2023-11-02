@@ -29,7 +29,7 @@ export default function Footer() {
 					<Link className={styles.boxLinkItem} href='https://gdg.community.dev/gdg-open/' target='_blank'>
 						Sobre el GDG Open Lima
 					</Link>
-					<Link className={styles.boxLinkItem} href='/code-conduct' target='_blank'>
+					<Link className={styles.boxLinkItem} href='/code-conduct'>
 						Código de conducta
 					</Link>
 					<Link className={styles.boxLinkItem} href='mailto:devfestlimaperu@gmail.com' target='_blank'>
