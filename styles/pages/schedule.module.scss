@@ -25,103 +25,47 @@
         }
     }
 
-    .containerMessage {
-        background: #F2F7FE;
-        border: 1px solid #E0E0E0;
-        border-radius: 8px;
-        padding: 24px 60px;
-        margin-bottom: 84px;
-        box-sizing: border-box;
-        line-height: 1.6;
-
-        @media screen and (max-width: 768px) {
-            width: 100%;
-            padding: 12px 20px;
-            text-align: justify;
-            margin-bottom: 40px;
-        }
-    }
-
-    .subtitle {
-        text-align: left;
+    .cardEvent {
+        border: 1px solid #E2E2E2;
+        border-radius: 12px;
+        padding: 16px;
         width: 100%;
-        margin-bottom: 32px;
+        margin: 8px 0;
+        box-sizing: border-box;
 
-        @media screen and (max-width: 768px) {
+
+        .title {
+            width: 100%;
+            border-bottom: 3px solid #676c72;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .speaker {
+            display: flex;
+            margin: 20px 0;
+
+            .photo {
+                height: 70px;
+                width: 70px;
+            }
+
+            .name {
+                margin-left: 12px;
+                font-weight: bold;
+            }
+
+        }
+
+        .talkDescription {
+            margin: 12px 0;
+        }
+
+        .timetable {
             font-size: 20px;
-            margin-bottom: 8px;
         }
-    }
-
-    .headInfoStage {
-        display: flex;
-        width: 100%;
-        padding: 0 52px;
-        box-sizing: border-box;
-        margin-bottom: 16px;
-
-        @media screen and (max-width: 768px) {
-            display: none;
-        }
-
-        p {
-            width: 100%;
-            font-weight: bold;
-        }
-    }
-
-    .infoStage {
-        border: 1px solid #E0E0E0;
-        border-radius: 8px;
-        width: 100%;
-        padding: 24px 52px;
-        box-sizing: border-box;
-        display: flex;
-        margin-bottom: 40px;
-
-        @media screen and (max-width: 768px) {
-            flex-direction: column;
-            margin-bottom: 28px;
-            padding: 12px;
-        }
-
-        &.infoStageNow {
-            margin-bottom: 80px;
-
-            @media screen and (max-width: 768px) {
-                margin-bottom: 28px;
-            }
-        }
-
-        p {
-            margin-bottom: 8px;
-            font-size: 16px;
-            width: 100%;
-
-            @media screen and (max-width: 768px) {
-                font-size: 12px;
-                display: inline;
-            }
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-
-            span {
-                display: none;
-
-                @media screen and (max-width: 768px) {
-                    display: inline;
-                }
-            }
-        }
-
-        .infoStageName {
-            font-weight: bold;
-            font-size: 16px;
-        }
-
-
     }
 
 }

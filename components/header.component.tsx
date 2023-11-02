@@ -52,6 +52,11 @@ export default function Header() {
 								Código de conducta
 							</Link>
 						</li>
+						<li className={styles.listItem}>
+							<Link className={styles.linkItem} aria-label='Preguntas frecuentes' href='/faq'>
+								FAQs
+							</Link>
+						</li>
 					</ul>
 				</nav>
 				<div className={styles.buttonNav} onClick={handleMenu}>
