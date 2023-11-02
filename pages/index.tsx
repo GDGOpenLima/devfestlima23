@@ -185,7 +185,7 @@ export default function Home() {
             {
               dataCommunity && dataCommunity.map(community =>
                 <div key={community.name}>
-                  <Link className={styles.btnLink} href={community.url} aria-label={community.name}>
+                  <Link className={styles.btnLink} href={`${community.url}?utm_source=landing&utm_medium=landing&utm_id=devfestLima2023`} target='_blank' aria-label={community.name}>
                     <Image
                       src={community.imageURL}
                       alt={community.name}

@@ -37,6 +37,11 @@ export default function Header() {
 								Acerca de
 							</Link>
 						</li>
+						<li className={styles.listItem}>
+							<Link className={styles.linkItem} aria-label='Mentores' href='/mentors'>
+								Speakers
+							</Link>
+						</li>
 						{/* <li className={styles.listItem}>
 							<Link className={styles.linkItem} aria-label='Cronograma' href='/schedule'>
 								Cronograma
