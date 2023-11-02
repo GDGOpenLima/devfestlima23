@@ -150,7 +150,7 @@ export default function Home() {
           <div className={styles.containerPlace}>
             <div className={styles.containerPlaceItem}>
               <h3 className={styles.place}>Lima</h3>
-              <p className={styles.subtitle}>15 de Julio, 09:00am (GMT-5)</p>
+              <p className={styles.subtitle}>11 de Noviembre, 09:00am (GMT-5)</p>
               <p className={styles.direction}>Universidad Nacional de Ingeniería</p>
               <p className={styles.direction}>Av. Túpac Amaru 210</p>
               <p className={styles.direction}>Rímac 15333</p>
