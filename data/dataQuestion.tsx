@@ -1,15 +1,15 @@
 export const dataQuestion = [
 	{
 		question: "¿Habrá estacionamiento disponible en el lugar del evento?",
-		answer: "No, no habrá estacionamiento disponible en esta ocasión."
+		answer: "No, no habrá estacionamiento disponible en esta ocasión. Le recomendamos tomar las precauciones del caso."
 	},
 	{
 		question: "¿Cuál es el horario máximo de ingreso al evento?",
-		answer: "Los asistentes pueden ingresar en cualquier momento durante el evento si llegan más tarde de las 9:30 a.m."
+		answer: "Los asistentes pueden ingresar en cualquier momento durante el evento si llegan más tarde de las 9:30 a.m., sin embargo se recomienda estar temprano para que puedas aprovechar al máximo las sesiones."
 	},
 	{
 		question: "¿Es necesario llevar una laptop al evento?",
-		answer: "No es necesario llevar una laptop."
+		answer: "No es necesario llevar una laptop, ya que no contaremos con workshop pero si deseas traer laptops o algún otro dispositivo por favor no te olvides de llevar su adaptador ya que no brindaremos adaptadores."
 	},
 	{
 		question: "¿Hasta qué hora se extenderá el evento?",
@@ -21,10 +21,10 @@ export const dataQuestion = [
 	},
 	{
 		question: "¿Necesito llevar mi DNI para acceder al evento?",
-		answer: "Sí, se requiere presentar un documento de identidad válido, como el DNI, para acceder al evento."
+		answer: "Sí, se requiere presentar un documento de identidad válido para acceder al evento."
 	},
 	{
 		question: "¿Necesito llevar mi entrada impresa?",
-		answer: "No es necesario llevar la entrada impresa. Puedes mostrar tu entrada electrónica en tu dispositivo móvil en la entrada del evento."
+		answer: "No es necesario llevar la entrada impresa, te recomendamos bajar el app del eventbrite (link) y podrás Puedes mostrar tu entrada mediante el QR."
 	}
 ]

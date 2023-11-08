@@ -16,6 +16,8 @@ import Phone from './../assets/images/phone.gif';
 import Working from './../assets/images/working.gif';
 import { useEffect } from 'react';
 import { dataCommunity } from '@/data/dataCommunity';
+import LogoCodiGo from './../assets/images/sponsors/LogoCodiGo.png';
+import LogoGoogle from './../assets/images/sponsors/Google.png';
 
 export default function Home() {
 
@@ -154,6 +156,48 @@ export default function Home() {
               <p className={styles.direction}>Universidad Nacional de Ingeniería</p>
               <p className={styles.direction}>Av. Túpac Amaru 210</p>
               <p className={styles.direction}>Rímac 15333</p>
+            </div>
+          </div>
+        </section>
+        <section className={`${styles.aboutSponsors} ${styles.sectionSponsors}`}>
+          <h2 className={styles.title}>Sponsors</h2>
+          <p className={styles.paragraph}>
+            Su contribución ha sido fundamental esta iniciativa y queremos expresar nuestro más sincero agradecimiento.
+          </p>
+          <div className={styles.galleryLogo}>
+            <div className={styles.sponsorItem}>
+              <Link className={styles.btnLink} href='https://codigo.edu.pe/' target='_blank' aria-label='CodiGo'>
+                <Image
+                  src={LogoCodiGo}
+                  alt="CodiGo"
+                  width={350}
+                  height={350}
+                  priority={true}
+                  sizes="100vw"
+                  style={{
+                    maxWidth: '300px',
+                    maxHeight: '300px',
+                    height: '120px',
+                    width: "auto",
+                  }} />
+              </Link>
+            </div>
+            <div className={styles.sponsorItem}>
+              <Link className={styles.btnLink} href='https://developers.google.com/' target='_blank' aria-label='Google Developers'>
+                <Image
+                  src={LogoGoogle}
+                  alt="Google Developers"
+                  width={350}
+                  height={350}
+                  priority={true}
+                  sizes="100vw"
+                  style={{
+                    maxWidth: '300px',
+                    maxHeight: '300px',
+                    height: '120px',
+                    width: "auto",
+                  }} />
+              </Link>
             </div>
           </div>
         </section>

@@ -35,9 +35,9 @@ export default function Schedule() {
                                         </div>
                                     )
                                 }
-                                <p className={styles.talkDescription}>
+                                {/* <p className={styles.talkDescription}>
                                     {slot.theme}
-                                </p>
+                                </p> */}
                             </div >
                         )
                     )
@@ -56,9 +56,9 @@ export default function Schedule() {
                                         </div>
                                     )
                                 }
-                                <p className={styles.talkDescription}>
+                                {/* <p className={styles.talkDescription}>
                                     {slot.theme}
-                                </p>
+                                </p> */}
                             </div >
                         )
                     )
