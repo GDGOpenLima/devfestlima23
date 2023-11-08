@@ -12,10 +12,10 @@ export const TrackOne = [
     {
         start: "9:20 a.m.",
         end: "10:15 a.m.",
-        theme: "El futuro de los paradigmas, Jetpack Compose vs SwiftUI",
-        speaker: "Kevin Morales",
-        description: "En esta charla hablaré sobre que son los paradigmas, cuales son los más comunes en el entorno nativo. Y que se espera a futuro con Jetpack Compose y SwiftUI. Además mostraré una aplicación CRUD con Firebase hecha en Jetpack Compose y otra en SwiftUI recalcando las principales diferencias de sintaxis y lenguaje. Por último daré mi opinión acerca de lo que se viene a futuro con estos paradigmas y el nativo.",
-        photo: "Kevin Morales.jpeg"
+        theme: "Competenc[IA]s Descubriendo tu perfil con Herramientas Digitales",
+        speaker: "Isabel Cordova Roman",
+        description: "¿Sabías que las empresas están utilizando IA para sus procesos de selección desde el primer contacto? Aquí conoceremos como se encuentra el mercado laboral y qué tips debemos utilizar en nuestro perfil para marcar la diferencia. Como hackear el sistema sin dejar de ser humanos.",
+        photo: "Isabel Cordova.jpg"
     },
     {
         start: "10:15 a.m.",
@@ -62,10 +62,10 @@ export const TrackOne = [
     {
         start: "3:00 p.m.",
         end: "3:55 p.m.",
-        theme: "Competenc[IA]s Descubriendo tu perfil con Herramientas Digitales",
-        speaker: "Isabel Cordova Roman",
-        description: "¿Sabías que las empresas están utilizando IA para sus procesos de selección desde el primer contacto? Aquí conoceremos como se encuentra el mercado laboral y qué tips debemos utilizar en nuestro perfil para marcar la diferencia. Como hackear el sistema sin dejar de ser humanos.",
-        photo: "Isabel Cordova.jpg"
+        theme: "El futuro de los paradigmas, Jetpack Compose vs SwiftUI",
+        speaker: "Kevin Morales",
+        description: "En esta charla hablaré sobre que son los paradigmas, cuales son los más comunes en el entorno nativo. Y que se espera a futuro con Jetpack Compose y SwiftUI. Además mostraré una aplicación CRUD con Firebase hecha en Jetpack Compose y otra en SwiftUI recalcando las principales diferencias de sintaxis y lenguaje. Por último daré mi opinión acerca de lo que se viene a futuro con estos paradigmas y el nativo.",
+        photo: "Kevin Morales.jpeg"
     },
     {
         start: "3:55 p.m.",
