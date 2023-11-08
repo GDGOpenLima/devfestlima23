@@ -2,11 +2,12 @@ import Footer from '@/components/footer.component';
 import Header from './../components/header.component';
 import styles from '@/styles/pages/schedule.module.scss';
 import HeadPage from '@/components/head.component';
-import { useEffect } from 'react';
-import { TrackOne } from '@/data/dataTrack';
+import { useEffect, useState } from 'react';
+import { TrackOne, TrackTwo } from '@/data/dataTrack';
 
 
 export default function Schedule() {
+    const [indexTrack, setIndexTrack] = useState(1);
 
     useEffect(() => { document.body.classList.remove('noScroll'); });
 
@@ -16,19 +17,50 @@ export default function Schedule() {
             <Header />
             <main className={styles.container}>
                 <h1 className={styles.title}>Agenda</h1>
+                <p className={styles.tabs}>
+                    <span className={`${styles.tab} ${indexTrack === 1 ? styles.active : ''}`} onClick={() => setIndexTrack(1)}>Tack 1</span>
+                    <span className={`${styles.tab} ${indexTrack === 2 ? styles.active : ''}`} onClick={() => setIndexTrack(2)}>Tack 2</span>
+                </p>
                 {
-                    TrackOne && TrackOne.map(slot =>
-                        <div className={styles.cardEvent} key={slot.theme}>
-                            <p className={styles.title}>{slot.theme}</p>
-                            <small className={styles.timetable}>{slot.start} - {slot.end}</small>
-                            <div className={styles.speaker}>
-                                <img className={styles.photo} src={slot.theme} alt={slot.speaker} />
-                                <p className={styles.name}>{slot.speaker}</p>
-                            </div>
-                            <p className={styles.talkDescription}>
-                                {slot.theme}
-                            </p>
-                        </div >
+                    indexTrack === 1 && (
+                        TrackOne && TrackOne.map(slot =>
+                            <div className={styles.cardEvent} key={slot.theme}>
+                                <p className={styles.title}>{slot.theme}</p>
+                                <small className={styles.timetable}>{slot.start} - {slot.end}</small>
+                                {
+                                    slot.photo && (
+                                        <div className={styles.speaker}>
+                                            <img className={styles.photo} src={`/./assets/images/speakers/${slot.photo}`} alt={slot.speaker} />
+                                            <p className={styles.name}>{slot.speaker}</p>
+                                        </div>
+                                    )
+                                }
+                                <p className={styles.talkDescription}>
+                                    {slot.theme}
+                                </p>
+                            </div >
+                        )
+                    )
+                }
+                {
+                    indexTrack === 2 && (
+                        TrackTwo && TrackTwo.map(slot =>
+                            <div className={styles.cardEvent} key={slot.theme}>
+                                <p className={styles.title}>{slot.theme}</p>
+                                <small className={styles.timetable}>{slot.start} - {slot.end}</small>
+                                {
+                                    slot.photo && (
+                                        <div className={styles.speaker}>
+                                            <img className={styles.photo} src={`/./assets/images/speakers/${slot.photo}`} alt={slot.speaker} />
+                                            <p className={styles.name}>{slot.speaker}</p>
+                                        </div>
+                                    )
+                                }
+                                <p className={styles.talkDescription}>
+                                    {slot.theme}
+                                </p>
+                            </div >
+                        )
                     )
                 }
             </main>

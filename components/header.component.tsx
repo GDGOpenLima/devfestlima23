@@ -42,11 +42,11 @@ export default function Header() {
 								Speakers
 							</Link>
 						</li>
-						{/* <li className={styles.listItem}>
+						<li className={styles.listItem}>
 							<Link className={styles.linkItem} aria-label='Cronograma' href='/schedule'>
 								Cronograma
 							</Link>
-						</li> */}
+						</li>
 						<li className={styles.listItem}>
 							<Link className={styles.linkItem} aria-label='Código de conducta' href='/code-conduct'>
 								Código de conducta
