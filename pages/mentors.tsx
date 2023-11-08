@@ -8,26 +8,26 @@ import { dataMentors } from '@/data/dataMentors';
 import IconLinkedIn from './../assets/icons/ic_linkedin.svg';
 import Link from 'next/link';
 
-const basePath = './../assets/mentors';
+const basePath = '/./assets/images/speakers/';
 
 export default function Mentors() {
 
     useEffect(() => { document.body.classList.remove('noScroll'); });
 
     return <>
-        <HeadPage namePage='mentors' titlePage='Mentores' />
+        <HeadPage namePage='mentors' titlePage='Speakers' />
         <Header />
         <main className={styles.container}>
             <article className={styles.containerArticle}>
                 <section className={styles.sectionText}>
-                    <h1 className={styles.title}>Próximamente</h1>
-                    {/* <div className={styles.mentorsGroup}>
+                    <h1 className={styles.title}>Speakers</h1>
+                    <div className={styles.mentorsGroup}>
                         {dataMentors && dataMentors.map(mentors =>
-                            <div className={styles.mentorItem} key={mentors.name}>
+                            <div className={styles.mentorItem} key={mentors.speaker}>
                                 <Image
                                     className={styles.img}
-                                    src={`${basePath}/${mentors.name}.png`}
-                                    alt={mentors.name}
+                                    src={`${basePath}/${mentors.photo}`}
+                                    alt={mentors.speaker}
                                     width={150}
                                     height={150}
                                     priority={true}
@@ -40,16 +40,11 @@ export default function Mentors() {
                                 <Link href={`${mentors.url}`} target='_blank'>
                                     <IconLinkedIn className={styles.btnLinkedIn} />
                                 </Link>
-                                <p className={styles.name}>{mentors.name}</p>
+                                <p className={styles.name}>{mentors.speaker}</p>
                                 <p className={styles.description}>{mentors.description}</p>
-                                <ul className={styles.listSkills}>
-                                    {mentors.skill && mentors.skill.map(item =>
-                                        <li key={item}>{item}</li>
-                                    )}
-                                </ul>
                             </div>
                         )}
-                    </div> */}
+                    </div>
                 </section>
             </article>
         </main>
