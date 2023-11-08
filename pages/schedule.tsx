@@ -13,7 +13,7 @@ export default function Schedule() {
 
     return (
         <>
-            <HeadPage namePage='schedule' titlePage='Cronograma' />
+            <HeadPage namePage='schedule' titlePage='Agenda' />
             <Header />
             <main className={styles.container}>
                 <h1 className={styles.title}>Agenda</h1>

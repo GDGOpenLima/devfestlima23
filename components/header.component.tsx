@@ -43,8 +43,8 @@ export default function Header() {
 							</Link>
 						</li>
 						<li className={styles.listItem}>
-							<Link className={styles.linkItem} aria-label='Cronograma' href='/schedule'>
-								Cronograma
+							<Link className={styles.linkItem} aria-label='Agenda' href='/schedule'>
+								Agenda
 							</Link>
 						</li>
 						<li className={styles.listItem}>
