@@ -3,7 +3,7 @@ import Header from './../components/header.component';
 import styles from '@/styles/pages/schedule.module.scss';
 import HeadPage from '@/components/head.component';
 import { useEffect, useState } from 'react';
-import { TrackOne, TrackTwo } from '@/data/dataTrack';
+import { TrackOne, TrackTwo, TrackThree } from '@/data/dataTrack';
 
 
 export default function Schedule() {
@@ -20,6 +20,7 @@ export default function Schedule() {
                 <p className={styles.tabs}>
                     <span className={`${styles.tab} ${indexTrack === 1 ? styles.active : ''}`} onClick={() => setIndexTrack(1)}>Tack 1</span>
                     <span className={`${styles.tab} ${indexTrack === 2 ? styles.active : ''}`} onClick={() => setIndexTrack(2)}>Tack 2</span>
+                    <span className={`${styles.tab} ${indexTrack === 3 ? styles.active : ''}`} onClick={() => setIndexTrack(3)}>Tack 3</span>
                 </p>
                 {
                     indexTrack === 1 && (
@@ -45,6 +46,27 @@ export default function Schedule() {
                 {
                     indexTrack === 2 && (
                         TrackTwo && TrackTwo.map(slot =>
+                            <div className={styles.cardEvent} key={slot.theme}>
+                                <p className={styles.title}>{slot.theme}</p>
+                                <small className={styles.timetable}>{slot.start} - {slot.end}</small>
+                                {
+                                    slot.photo && (
+                                        <div className={styles.speaker}>
+                                            <img className={styles.photo} src={`/./assets/images/speakers/${slot.photo}`} alt={slot.speaker} />
+                                            <p className={styles.name}>{slot.speaker}</p>
+                                        </div>
+                                    )
+                                }
+                                <p className={styles.talkDescription}>
+                                    {slot.description}
+                                </p>
+                            </div >
+                        )
+                    )
+                }
+                {
+                    indexTrack === 3 && (
+                        TrackThree && TrackThree.map(slot =>
                             <div className={styles.cardEvent} key={slot.theme}>
                                 <p className={styles.title}>{slot.theme}</p>
                                 <small className={styles.timetable}>{slot.start} - {slot.end}</small>
