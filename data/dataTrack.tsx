@@ -108,7 +108,7 @@ export const TrackTwo = [
         speaker: "Antuanet Grayce Elias Ayllon",
         description: "En esta charla podrás conocer lo que sucede en el área de selección IT, qué es lo que buscan, recibirás hacks accionables para que puedas tener éxito en tus entrevistas para mercado local e internacional.",
         photo: "Antuanet Elias Ayllon.jpg"
-    },
+    },    
     {
         start: "10:15 a.m.",
         end: "11:10 a.m.",
@@ -135,6 +135,14 @@ export const TrackTwo = [
     },
     {
         start: "12:25 p.m.",
+        end: "1:00 p.m.",
+        theme: "Bootcamps: una nueva forma de aprender a Programa",
+        speaker: "Daniel De la cruz",
+        description: "Bootcamps: una nueva forma de aprender a Programa.",
+        photo: "Daniel De la cruz.jpeg"
+    },
+    {
+        start: "1:00 p.m.",
         end: "2:00 p.m.",
         theme: "Break"
     },
@@ -196,6 +204,106 @@ export const TrackThree = [
     {
         start: "9:20 a.m.",
         end: "10:15 a.m.",
+        theme: "Game Dev desde 0",
+        speaker: "Hansy Schmitt",
+        description: "Game Dev desde 0",
+        photo: "Hansy Schmitt.jpeg"
+    },
+    {
+        start: "10:15 a.m.",
+        end: "11:10 a.m.",
+        theme: "Cómo tomar decisiones arriesgadas y sobrevivir sin que te despidan",
+        speaker: "Frank Moreno - Grinch Code",
+        description: "Cómo tomar decisiones arriesgadas y sobrevivir sin que te despidan",
+        photo: "Frank Moreno.jpeg"
+    },
+    {
+        start: "11:10 a.m.",
+        end: "12:05 p.m.",
+        theme: "Implementando soluciones ingeniosas con Tensor Flow",
+        speaker: "Renato Capcha",
+        description: "Implementando soluciones ingeniosas con Tensor Flow.",
+        photo: "Renato Capcha.png"
+    },
+    {
+        start: "12:05 p.m.",
+        end: "12:25 p.m.",
+        theme: "Cómo aprovechar el poder de BigQuery para el Aprendizaje Automático (Machine Learning)",
+        speaker: "Experts - Panel Q&A",
+        description: "Experts - Panel Q&A.",
+        photo: "Expert.png"
+    },
+    {
+        start: "12:25 p.m.",
+        end: "2:00 p.m.",
+        theme: "Break"
+    },
+    {
+        start: "2:00 p.m.",
+        end: "2:05 p.m.",
+        theme: "Reconectar"
+    },
+    {
+        start: "2:05 p.m.",
+        end: "2:25 p.m.",
+        theme: "Demo con el framework serverless Next.js con Firebase y Google Cloud",
+        speaker: "Glisse Lisbeth Jorge Malca",
+        description: "Aplicación demo de Next.js para usar con Firebase y desplegado con Google Cloud. Una presentación de que utilizar Next.js para crear aplicaciones de pila completa aprovechando y agregando valor con las tareas específicas a la nube y concentrarse en brindar a sus usuarios una experiencia de usuario de alta calidad ayudando a alcanzar sus objetivos, ya sea que esté creando un SPA básico o una aplicación completa y sofisticada.",
+        photo: "Glisse Lisbeth Jorge Malca.png"
+    },
+    {
+        start: "2:35 p.m.",
+        end: "3:00 p.m.",
+        theme: "Bootcamps: una nueva forma de aprender a Programar ",
+        speaker: "Daniel De la Cruz",
+        description: "Bootcamps: una nueva forma de aprender a Programar .",
+        photo: "Daniel De la Cruz.jpeg"
+    },
+    {
+        start: "3:00 p.m.",
+        end: "3:55 p.m.",
+        theme: "Construyendo apps con React Native y Kotlin Multiplatform",
+        speaker: "Bruno Aybar",
+        description: "En esta presentación se usara lo mas nuevo de la tecnología como ser el Api de WebGpu y  Transitions api para hacer una un recorrido único en cuanto a experiencia de usuario como audio visual.",
+        photo: "Bruno Aybar.jpeg"
+    },
+    {
+        start: "3:55 p.m.",
+        end: "4:50 p.m.",
+        theme: "Angular Revolution",
+        speaker: "Jimy Dolores",
+        description: "El nomadismo digital es un tema del cual se habla cada vez más en la industria tech.Sin embargo, ¿qué es realmente ser un nómada digital? ¿Cómo es el día a día de alguien que vive viajando mientras trabaja de forma 100% remota en la industria tecnológica? Soy Cecy Ramallo, reconvertida a Front- end developer, y soy nómada digital desde septiembre de 2021. En estos 2 años he viajado sola por 11 países mientras trabajo desde mi computador, por lo cual ya tengo cierta experiencia en este estilo de vida, sus pros y sus contras, porque todo es muy bonito para el Instagram, pero hay ciertos \"problemas\" que los nómadas digitales también tenemos que enfrentar.En esta charla me gustaría hablarles sobre cómo empezar a ser nómada digital y qué puntos hay que tener en cuenta al momento de lanzarse a serlo, desde la elección de destinos y el manejo de tu presupuesto hasta la coordinación de horarios y tiempos de descanso, pasando por aspectos importantes como impuestos, seguros de viaje y seguridad personal. Ser nómada digital no es para todos ni es para siempre, pero si tienes un trabajo en tecnología que te permite trabajar remoto(aunque sea por temporadas), es una buena forma de aprovechar esa ventaja para enriquecer tu experiencia cultural, recorrer otros lugares y hacer nuevos contactos.",
+        photo: "Jimy Dolores.jpeg"
+    },
+    {
+        start: "4:50 p.m.",
+        end: "5:45 p.m.",
+        theme: "Navegando el Cambio: AI, Oportunidades Laborales y Estrategias de Adaptación",
+        speaker: "Moises Salinas",
+        description: "",
+        photo: "Moises Salinas.jpg"
+    },
+    {
+        start: "5:45 p.m.",
+        end: "6:00 p.m.",
+        theme: "Cierre"
+    }
+];
+
+export const TrackFour = [
+    {
+        start: "9:00 a.m.",
+        end: "9:10 a.m.",
+        theme: "Registro"
+    },
+    {
+        start: "9:10 a.m.",
+        end: "9:20 a.m.",
+        theme: "Inauguración del evento"
+    },
+    {
+        start: "9:20 a.m.",
+        end: "10:15 a.m.",
         theme: "Transforma Documentos Extensos en un Q&A Bot con Vertex AI PaLM API",
         speaker: "Alvaro Huanca",
         description: "Esta sesión muestra cómo puedes construir un sistema de preguntas y respuestas(Q&A), o \"bot\", sobre múltiples documentos grandes para que Vertex AI PaLM API pueda responder cualquier pregunta sobre el contenido de esos documentos. Muchas empresas tienen mucha información almacenada en documentos, pero recuperar esa información de manera fácil y rápida puede ser un desafío.Para solucionar esto, construirás un sistema de preguntas y respuestas potenciado por PaLM API para permitir que los usuarios extraigan o consulten detalles importantes de esos documentos.",
@@ -238,10 +346,10 @@ export const TrackThree = [
     {
         start: "2:05 p.m.",
         end: "3:00 p.m.",
-        theme: "Demo con el framework serverless Next.js con Firebase y Google Cloud",
-        speaker: "Glisse Lisbeth Jorge Malca",
-        description: "Aplicación demo de Next.js para usar con Firebase y desplegado con Google Cloud. Una presentación de que utilizar Next.js para crear aplicaciones de pila completa aprovechando y agregando valor con las tareas específicas a la nube y concentrarse en brindar a sus usuarios una experiencia de usuario de alta calidad ayudando a alcanzar sus objetivos, ya sea que esté creando un SPA básico o una aplicación completa y sofisticada.",
-        photo: "Glisse Lisbeth Jorge Malca.png"
+        theme: "Taller de story telling",
+        speaker: "Brian Castillo",
+        description: "Taller de story telling",
+        photo: "Brian Castillo.jpg"
     },
     {
         start: "3:00 p.m.",
@@ -272,4 +380,16 @@ export const TrackThree = [
         end: "6:00 p.m.",
         theme: "Cierre"
     }
+];
+
+export const TrackFive = [
+    {
+        start: "10:00 a.m.",
+        end: "12:30 p.m.",
+        theme: "[Android Dev Perú] - Workshop: tus primeros pasos con Jetpack Compose",
+        speaker: "Bruno Aybar y Josue Durand",
+        description: "[Android Dev Perú] - Workshop: tus primeros pasos con Jetpack Compose",
+        photo: "Alvaro David.jpg"
+    },
+  
 ];
