@@ -231,7 +231,7 @@ export const TrackThree = [
         theme: "Cómo aprovechar el poder de BigQuery para el Aprendizaje Automático (Machine Learning)",
         speaker: "Experts - Panel Q&A",
         description: "Experts - Panel Q&A.",
-        photo: "Expert.png"
+        photo: "Logo.png"
     },
     {
         start: "12:25 p.m.",
@@ -272,7 +272,7 @@ export const TrackThree = [
         end: "4:50 p.m.",
         theme: "Angular Revolution",
         speaker: "Jimy Dolores",
-        description: "El nomadismo digital es un tema del cual se habla cada vez más en la industria tech.Sin embargo, ¿qué es realmente ser un nómada digital? ¿Cómo es el día a día de alguien que vive viajando mientras trabaja de forma 100% remota en la industria tecnológica? Soy Cecy Ramallo, reconvertida a Front- end developer, y soy nómada digital desde septiembre de 2021. En estos 2 años he viajado sola por 11 países mientras trabajo desde mi computador, por lo cual ya tengo cierta experiencia en este estilo de vida, sus pros y sus contras, porque todo es muy bonito para el Instagram, pero hay ciertos \"problemas\" que los nómadas digitales también tenemos que enfrentar.En esta charla me gustaría hablarles sobre cómo empezar a ser nómada digital y qué puntos hay que tener en cuenta al momento de lanzarse a serlo, desde la elección de destinos y el manejo de tu presupuesto hasta la coordinación de horarios y tiempos de descanso, pasando por aspectos importantes como impuestos, seguros de viaje y seguridad personal. Ser nómada digital no es para todos ni es para siempre, pero si tienes un trabajo en tecnología que te permite trabajar remoto(aunque sea por temporadas), es una buena forma de aprovechar esa ventaja para enriquecer tu experiencia cultural, recorrer otros lugares y hacer nuevos contactos.",
+        description: "Jimy Dolores.",
         photo: "Jimy Dolores.jpeg"
     },
     {
@@ -280,8 +280,8 @@ export const TrackThree = [
         end: "5:45 p.m.",
         theme: "Navegando el Cambio: AI, Oportunidades Laborales y Estrategias de Adaptación",
         speaker: "Moises Salinas",
-        description: "",
-        photo: "Moises Salinas.jpg"
+        description: "Navegando el Cambio: AI, Oportunidades Laborales y Estrategias de Adaptación",
+        photo: "Moises Salinas.jpeg"
     },
     {
         start: "5:45 p.m.",
@@ -389,7 +389,7 @@ export const TrackFive = [
         theme: "[Android Dev Perú] - Workshop: tus primeros pasos con Jetpack Compose",
         speaker: "Bruno Aybar y Josue Durand",
         description: "[Android Dev Perú] - Workshop: tus primeros pasos con Jetpack Compose",
-        photo: "Alvaro David.jpg"
+        photo: "Android Dev Peru.jpg"
     },
   
 ];
