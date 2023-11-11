@@ -349,10 +349,10 @@ export const TrackFour = [
     {
         start: "2:05 p.m.",
         end: "3:00 p.m.",
-        theme: "Taller de story telling",
-        speaker: "Brian Castillo",
-        description: "Taller de story telling",
-        photo: "Brian Castillo.jpg"
+        theme: "Impacto de WebAssembly en el ecosistema de apps móviles",
+        speaker: "Frank Moreno",
+        description: "Impacto de WebAssembly en el ecosistema de apps móviles",
+        photo: "Frank Moreno.jpeg"
     },
     {
         start: "3:00 p.m.",
