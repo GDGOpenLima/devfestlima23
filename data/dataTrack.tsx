@@ -30,7 +30,7 @@ export const TrackOne = [
         end: "12:05 p.m.",
         theme: "Todo bonito con Firebase, Pero ¿Ya sabes cómo te cobra?",
         speaker: "Brian Castillo",
-        description: "",
+        description: "Todo bonito con Firebase, Pero ¿Ya sabes cómo te cobra?",
         photo: "Brian Castillo.jpg"
     },
     {
@@ -228,7 +228,7 @@ export const TrackThree = [
     {
         start: "12:05 p.m.",
         end: "12:25 p.m.",
-        theme: "Cómo aprovechar el poder de BigQuery para el Aprendizaje Automático (Machine Learning)",
+        theme: "Experts - Panel Q&A",
         speaker: "Experts - Panel Q&A",
         description: "Experts - Panel Q&A.",
         photo: "Logo.png"
@@ -389,7 +389,7 @@ export const TrackFive = [
         theme: "[Android Dev Perú] - Workshop: tus primeros pasos con Jetpack Compose",
         speaker: "Bruno Aybar y Josue Durand",
         description: "[Android Dev Perú] - Workshop: tus primeros pasos con Jetpack Compose",
-        photo: "Android Dev Peru.jpg"
+        photo: "Android Dev Peru.png"
     },
   
 ];
