@@ -370,10 +370,10 @@ export const TrackFour = [
     {
         start: "4:50 p.m.",
         end: "5:45 p.m.",
-        theme: "Todo bonito con Firebase, Pero ¿Ya sabes cómo te cobra?",
-        speaker: "Brian Castillo",
-        description: "Todo bonito con Firebase, Pero ¿Ya sabes cómo te cobra?",
-        photo: "Brian Castillo.jpg"
+        theme: "Conectando Hardware Bluetooth con Flutter",
+        speaker: "Hansy Schmitt",
+        description: "Conectando Hardware Bluetooth con Flutter",
+        photo: "Hansy Schmitt.jpeg"
     },
     {
         start: "5:45 p.m.",
