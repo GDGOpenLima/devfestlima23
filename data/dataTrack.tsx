@@ -30,7 +30,7 @@ export const TrackOne = [
         end: "12:05 p.m.",
         theme: "Conociendo Firebase y sus super poderes",
         speaker: "Luis Eduardo Perez",
-        description: "¿Cónoces todo el potencial de Firebase?",
+        description: "** Esta charla se movió a las 2pm en el track 3 - FIEE Salón 201**",
         photo: "Luis Eduardo.png"
     },
     {
@@ -240,19 +240,22 @@ export const TrackThree = [
     },
     {
         start: "2:00 p.m.",
-        end: "2:05 p.m.",
-        theme: "Reconectar"
+        end: "2:15 p.m.",
+        theme: "Conociendo Firebase y sus super poderes",
+        speaker: "Luis Eduardo Perez",
+        description: "¿Cónoces todo el potencial de Firebase?",
+        photo: "Luis Eduardo Perez.jpeg"
     },
     {
-        start: "2:05 p.m.",
-        end: "2:25 p.m.",
+        start: "2:20 p.m.",
+        end: "2:35 p.m.",
         theme: "Demo con el framework serverless Next.js con Firebase y Google Cloud",
         speaker: "Glisse Lisbeth Jorge Malca",
         description: "Aplicación demo de Next.js para usar con Firebase y desplegado con Google Cloud. Una presentación de que utilizar Next.js para crear aplicaciones de pila completa aprovechando y agregando valor con las tareas específicas a la nube y concentrarse en brindar a sus usuarios una experiencia de usuario de alta calidad ayudando a alcanzar sus objetivos, ya sea que esté creando un SPA básico o una aplicación completa y sofisticada.",
         photo: "Glisse Lisbeth Jorge Malca.png"
     },
     {
-        start: "2:35 p.m.",
+        start: "2:40 p.m.",
         end: "3:00 p.m.",
         theme: "Bootcamps: una nueva forma de aprender a Programar ",
         speaker: "Daniel De la Cruz",
