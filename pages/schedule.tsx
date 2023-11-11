@@ -18,11 +18,11 @@ export default function Schedule() {
             <main className={styles.container}>
                 <h1 className={styles.title}>Agenda</h1>
                 <p className={styles.tabs}>
-                    <span className={`${styles.tab} ${indexTrack === 1 ? styles.active : ''}`} onClick={() => setIndexTrack(1)}>Track 1</span>
-                    <span className={`${styles.tab} ${indexTrack === 2 ? styles.active : ''}`} onClick={() => setIndexTrack(2)}>Track 2</span>
-                    <span className={`${styles.tab} ${indexTrack === 3 ? styles.active : ''}`} onClick={() => setIndexTrack(3)}>Track 3</span>
-                    <span className={`${styles.tab} ${indexTrack === 4 ? styles.active : ''}`} onClick={() => setIndexTrack(4)}>Track 4</span>
-                    <span className={`${styles.tab} ${indexTrack === 5 ? styles.active : ''}`} onClick={() => setIndexTrack(5)}>Workshop</span>
+                    <span className={`${styles.tab} ${indexTrack === 1 ? styles.active : ''}`} onClick={() => setIndexTrack(1)}>Track 1 - Auditorio FIEE</span>
+                    <span className={`${styles.tab} ${indexTrack === 2 ? styles.active : ''}`} onClick={() => setIndexTrack(2)}>Track 2 - Auditorio CTIC</span>
+                    <span className={`${styles.tab} ${indexTrack === 3 ? styles.active : ''}`} onClick={() => setIndexTrack(3)}>Track 3 - FIEE Salón 201</span>
+                    <span className={`${styles.tab} ${indexTrack === 4 ? styles.active : ''}`} onClick={() => setIndexTrack(4)}>Track 4 - FIEE Salón 207</span>
+                    <span className={`${styles.tab} ${indexTrack === 5 ? styles.active : ''}`} onClick={() => setIndexTrack(5)}>Workshop - FIEE Salón 208</span>
                 </p>
                 {
                     indexTrack === 1 && (
