@@ -264,7 +264,7 @@ export const TrackThree = [
         end: "3:55 p.m.",
         theme: "Construyendo apps con React Native y Kotlin Multiplatform",
         speaker: "Bruno Aybar",
-        description: "En esta presentación se usara lo mas nuevo de la tecnología como ser el Api de WebGpu y  Transitions api para hacer una un recorrido único en cuanto a experiencia de usuario como audio visual.",
+        description: "Construyendo apps con React Native y Kotlin Multiplatform.",
         photo: "Bruno Aybar.jpeg"
     },
     {
