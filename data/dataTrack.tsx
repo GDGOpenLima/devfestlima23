@@ -136,9 +136,9 @@ export const TrackTwo = [
     {
         start: "12:25 p.m.",
         end: "1:00 p.m.",
-        theme: "Bootcamps: una nueva forma de aprender a Programa",
+        theme: "Bootcamps: una nueva forma de aprender a Programar",
         speaker: "Daniel De la cruz",
-        description: "Bootcamps: una nueva forma de aprender a Programa.",
+        description: "Bootcamps: una nueva forma de aprender a Programar.",
         photo: "Daniel De la Cruz.jpeg"
     },
     {
