@@ -22,7 +22,7 @@ export default function Schedule() {
                 {
                     isVisibleMap && 
                     (
-                        <img className={styles.photoMap} src={`/./assets/images/speakers/mapuni.png`} alt='Ver Mapa UNI' />
+                        <img className={styles.photoMap} src={`/./assets/images/speakers/mapauni.png`} alt='Ver Mapa UNI' />
                     )
                 }
                 <p className={styles.tabs}>
