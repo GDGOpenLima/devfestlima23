@@ -18,7 +18,7 @@ export default function Schedule() {
             <Header />
             <main className={styles.container}>
                 <h1 className={styles.title}>Agenda</h1>
-                <p className={styles.textMap} onClick={() => setIndexTrack(1)}>Ver Mapa</p>
+                <p className={styles.textMap} onClick={() => setIsVisibleMap(true)}>Ver Mapa</p>
                 {
                     isVisibleMap && 
                     (
