@@ -8,6 +8,7 @@ import { TrackOne, TrackTwo, TrackThree, TrackFour, TrackFive } from '@/data/dat
 
 export default function Schedule() {
     const [indexTrack, setIndexTrack] = useState(1);
+    const [isVisibleMap, setIsVisibleMap] = useState(false);
 
     useEffect(() => { document.body.classList.remove('noScroll'); });
 
@@ -17,6 +18,13 @@ export default function Schedule() {
             <Header />
             <main className={styles.container}>
                 <h1 className={styles.title}>Agenda</h1>
+                <p className={styles.textMap} onClick={() => setIndexTrack(1)}>Ver Mapa</p>
+                {
+                    isVisibleMap && 
+                    (
+                        <img className={styles.photoMap} src={`/./assets/images/speakers/mapuni.png`} alt='Ver Mapa UNI' />
+                    )
+                }
                 <p className={styles.tabs}>
                     <span className={`${styles.tab} ${indexTrack === 1 ? styles.active : ''}`} onClick={() => setIndexTrack(1)}>Track 1 - Auditorio FIEE</span>
                     <span className={`${styles.tab} ${indexTrack === 2 ? styles.active : ''}`} onClick={() => setIndexTrack(2)}>Track 2 - Auditorio CTIC</span>
