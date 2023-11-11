@@ -112,18 +112,18 @@ export const TrackTwo = [
     {
         start: "10:15 a.m.",
         end: "11:10 a.m.",
-        theme: " Despues de la web una experiencia 3D Immersiva sin perder performance",
-        speaker: "Antonio Cardenas",
-        description: "En esta presentación se usara lo mas nuevo de la tecnología como ser el Api de WebGpu y  Transitions api para hacer una un recorrido único en cuanto a experiencia de usuario como audio visual.",
-        photo: "Antonio Cardenas.jpeg"
-    },
-    {
-        start: "11:10 a.m.",
-        end: "12:05 p.m.",
         theme: "Vivir \"traviajando\": Ser nómada digital y compatibilizarlo con un trabajo tech",
         speaker: "Cecilia Ramallo Díaz",
         description: "El nomadismo digital es un tema del cual se habla cada vez más en la industria tech.Sin embargo, ¿qué es realmente ser un nómada digital? ¿Cómo es el día a día de alguien que vive viajando mientras trabaja de forma 100% remota en la industria tecnológica? Soy Cecy Ramallo, reconvertida a Front- end developer, y soy nómada digital desde septiembre de 2021. En estos 2 años he viajado sola por 11 países mientras trabajo desde mi computador, por lo cual ya tengo cierta experiencia en este estilo de vida, sus pros y sus contras, porque todo es muy bonito para el Instagram, pero hay ciertos \"problemas\" que los nómadas digitales también tenemos que enfrentar.En esta charla me gustaría hablarles sobre cómo empezar a ser nómada digital y qué puntos hay que tener en cuenta al momento de lanzarse a serlo, desde la elección de destinos y el manejo de tu presupuesto hasta la coordinación de horarios y tiempos de descanso, pasando por aspectos importantes como impuestos, seguros de viaje y seguridad personal. Ser nómada digital no es para todos ni es para siempre, pero si tienes un trabajo en tecnología que te permite trabajar remoto(aunque sea por temporadas), es una buena forma de aprovechar esa ventaja para enriquecer tu experiencia cultural, recorrer otros lugares y hacer nuevos contactos.",
         photo: "Cecilia Ramallo.jpeg"
+    },
+    {
+        start: "11:10 a.m.",
+        end: "12:05 p.m.",
+        theme: " Despues de la web una experiencia 3D Immersiva sin perder performance",
+        speaker: "Antonio Cardenas",
+        description: "En esta presentación se usara lo mas nuevo de la tecnología como ser el Api de WebGpu y  Transitions api para hacer una un recorrido único en cuanto a experiencia de usuario como audio visual.",
+        photo: "Antonio Cardenas.jpeg"
     },
     {
         start: "12:05 p.m.",
