@@ -28,10 +28,10 @@ export const TrackOne = [
     {
         start: "11:10 a.m.",
         end: "12:05 p.m.",
-        theme: "Todo bonito con Firebase, Pero ¿Ya sabes cómo te cobra?",
-        speaker: "Brian Castillo",
-        description: "Todo bonito con Firebase, Pero ¿Ya sabes cómo te cobra?",
-        photo: "Brian Castillo.jpg"
+        theme: "Conociendo Firebase y sus super poderes",
+        speaker: "Luis Eduardo Perez",
+        description: "¿Cónoces todo el potencial de Firebase?",
+        photo: "Luis Eduardo.png"
     },
     {
         start: "12:05 p.m.",
