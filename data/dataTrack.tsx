@@ -280,15 +280,7 @@ export const TrackThree = [
     },
     {
         start: "4:50 p.m.",
-        end: "5:45 p.m.",
-        theme: "Navegando el Cambio: AI, Oportunidades Laborales y Estrategias de Adaptación",
-        speaker: "Moises Salinas",
-        description: "Navegando el Cambio: AI, Oportunidades Laborales y Estrategias de Adaptación",
-        photo: "Moises Salinas.jpeg"
-    },
-    {
-        start: "5:45 p.m.",
-        end: "6:00 p.m.",
+        end: "5:00 p.m.",
         theme: "Cierre"
     }
 ];
@@ -348,22 +340,30 @@ export const TrackFour = [
     },
     {
         start: "2:05 p.m.",
-        end: "3:00 p.m.",
+        end: "2:35 p.m.",
         theme: "Impacto de WebAssembly en el ecosistema de apps móviles",
         speaker: "Frank Moreno",
         description: "Impacto de WebAssembly en el ecosistema de apps móviles",
         photo: "Frank Moreno.jpeg"
     },
     {
-        start: "3:00 p.m.",
-        end: "3:55 p.m.",
+        start: "2:35 p.m.",
+        end: "3:05 p.m.",
+        theme: "Navegando el Cambio: AI, Oportunidades Laborales y Estrategias de Adaptación",
+        speaker: "Moises Salinas",
+        description: "Navegando el Cambio: AI, Oportunidades Laborales y Estrategias de Adaptación",
+        photo: "Moises Salinas.jpeg"
+    },
+    {
+        start: "3:05 p.m.",
+        end: "4:00 p.m.",
         theme: " Despues de la web una experiencia 3D Immersiva sin perder performance",
         speaker: "Antonio Cardenas",
         description: "En esta presentación se usara lo mas nuevo de la tecnología como ser el Api de WebGpu y  Transitions api para hacer una un recorrido único en cuanto a experiencia de usuario como audio visual.",
         photo: "Antonio Cardenas.jpeg"
     },
     {
-        start: "3:55 p.m.",
+        start: "4:00 p.m.",
         end: "4:50 p.m.",
         theme: "Vivir \"traviajando\": Ser nómada digital y compatibilizarlo con un trabajo tech",
         speaker: "Cecilia Ramallo Díaz",
