@@ -327,14 +327,14 @@ export const TrackFour = [
     },
     {
         start: "12:05 p.m.",
-        end: "12:25 p.m.",
+        end: "1:00 p.m.",
         theme: "Cómo aprovechar el poder de BigQuery para el Aprendizaje Automático (Machine Learning)",
         speaker: "Nicolás Lecaros Marchant",
         description: "En esta charla, aprenderás cómo usar BigQuery para crear modelos de aprendizaje automático, desde la introducción al aprendizaje automático hasta los casos de uso más avanzados.",
         photo: "Nicolás Lecaros.jpeg"
     },
     {
-        start: "12:25 p.m.",
+        start: "1:00 p.m.",
         end: "2:00 p.m.",
         theme: "Break"
     },
