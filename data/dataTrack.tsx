@@ -139,7 +139,7 @@ export const TrackTwo = [
         theme: "Bootcamps: una nueva forma de aprender a Programa",
         speaker: "Daniel De la cruz",
         description: "Bootcamps: una nueva forma de aprender a Programa.",
-        photo: "Daniel De la cruz.jpeg"
+        photo: "Daniel De la Cruz.jpeg"
     },
     {
         start: "1:00 p.m.",
@@ -372,7 +372,7 @@ export const TrackFour = [
         end: "5:45 p.m.",
         theme: "Todo bonito con Firebase, Pero ¿Ya sabes cómo te cobra?",
         speaker: "Brian Castillo",
-        description: "",
+        description: "Todo bonito con Firebase, Pero ¿Ya sabes cómo te cobra?",
         photo: "Brian Castillo.jpg"
     },
     {
