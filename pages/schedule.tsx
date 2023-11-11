@@ -22,7 +22,7 @@ export default function Schedule() {
                     <span className={`${styles.tab} ${indexTrack === 2 ? styles.active : ''}`} onClick={() => setIndexTrack(2)}>Track 2</span>
                     <span className={`${styles.tab} ${indexTrack === 3 ? styles.active : ''}`} onClick={() => setIndexTrack(3)}>Track 3</span>
                     <span className={`${styles.tab} ${indexTrack === 4 ? styles.active : ''}`} onClick={() => setIndexTrack(4)}>Track 4</span>
-                    <span className={`${styles.tab} ${indexTrack === 5 ? styles.active : ''}`} onClick={() => setIndexTrack(5)}>Track 5</span>
+                    <span className={`${styles.tab} ${indexTrack === 5 ? styles.active : ''}`} onClick={() => setIndexTrack(5)}>Workshop</span>
                 </p>
                 {
                     indexTrack === 1 && (
