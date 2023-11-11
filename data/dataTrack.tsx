@@ -21,9 +21,9 @@ export const TrackOne = [
         start: "10:15 a.m.",
         end: "11:10 a.m.",
         theme: "Visualización de Datos con Google Sheets y Looker Studio",
-        speaker: "Ronald Barzola",
+        speaker: "Mario Pastor",
         description: "Aprenderemos fundamentos de data storytelling y crearemos nuestro primer dashboard con data real de un negocio usando google sheets y Looker Studio",
-        photo: "Ronald Barzola.jpg"
+        
     },
     {
         start: "11:10 a.m.",
